@@ -8,16 +8,21 @@
 #include "FileInputCommands.h"
 #include "FieldGeneration/FieldGenerator.h"
 #include "FileInputExeption.h"
+#include <SFML/Graphics.hpp>
 
 class Application {
 private:
     bool game;
     IGameObserver* game_observer;
+    sf::RenderWindow* window;
+    sf::VideoMode videoMode;
+    sf::Event ev{};
 public:
     void start();
     void load();
     void exit();
     Application();
+    void initWindow();
     ~Application();
 };
 

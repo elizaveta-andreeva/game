@@ -3,92 +3,92 @@
 #include <cmath>
 
 
-void Controller::movePlayerUp(Field &field, Player &player) {
-    PrintField print_field;
+void Controller::movePlayerUp(Field &field, Player &player, sf::RenderWindow *window) {
+//    PrintField print_field(window);
     if (!field.getCell((field.getHeight() + field.getActiveCellY() - 1) %
                        field.getHeight(), field.getActiveCellX()).getBarrier()) {
         field.moveUp(1, player);
     } else {
         throw PlayerMoveException(field.getActiveCellX(), field.getActiveCellY() - 1, " is barrier!");
     }
-    print_field.print(field);
+//    print_field.print(field);
 }
 
-void Controller::movePlayerDown(Field &field, Player &player) {
-    PrintField print_field;
+void Controller::movePlayerDown(Field &field, Player &player, sf::RenderWindow *window) {
+//    PrintField print_field(window);
     if (!field.getCell((field.getHeight() + field.getActiveCellY() + 1) %
                        field.getHeight(), field.getActiveCellX()).getBarrier()) {
         field.moveDown(1, player);
     } else {
         throw PlayerMoveException(field.getActiveCellX(), field.getActiveCellY() + 1, " is barrier!");
     }
-    print_field.print(field);
+//    print_field.print(field);
 }
 
-void Controller::movePlayerRight(Field &field, Player &player) {
-    PrintField print_field;
+void Controller::movePlayerRight(Field &field, Player &player, sf::RenderWindow *window) {
+//    PrintField print_field(window);
     if (!field.getCell(field.getActiveCellY(), (field.getWidth() + field.getActiveCellX() + 1) %
                                                field.getWidth()).getBarrier()) {
         field.moveRight(1, player);
     } else {
         throw PlayerMoveException(field.getActiveCellX() + 1, field.getActiveCellY(), " is barrier!");
     }
-    print_field.print(field);
+//    print_field.print(field);
 }
 
-void Controller::movePlayerLeft(Field &field, Player &player) {
-    PrintField print_field;
+void Controller::movePlayerLeft(Field &field, Player &player, sf::RenderWindow *window) {
+//    PrintField print_field(window);
     if (!field.getCell(field.getActiveCellY(), (field.getWidth() + field.getActiveCellX() - 1) %
                                                field.getWidth()).getBarrier()) {
         field.moveLeft(1, player);
     } else {
         throw PlayerMoveException(field.getActiveCellX() - 1, field.getActiveCellY(), " is barrier!");
     }
-    print_field.print(field);
+//    print_field.print(field);
 }
 
-void Controller::doubleMovePlayerUp(Field &field, Player &player) {
-    PrintField print_field;
+void Controller::doubleMovePlayerUp(Field &field, Player &player, sf::RenderWindow *window) {
+//    PrintField print_field(window);
     if (!field.getCell((field.getHeight() + field.getActiveCellY() - 2) %
                        field.getHeight(), field.getActiveCellX()).getBarrier()) {
         field.moveUp(2, player);
     } else {
         throw PlayerMoveException(field.getActiveCellX(), field.getActiveCellY() - 2, " is barrier!");
     }
-    print_field.print(field);
+//    print_field.print(field);
 }
 
-void Controller::doubleMovePlayerDown(Field &field, Player &player) {
-    PrintField print_field;
+void Controller::doubleMovePlayerDown(Field &field, Player &player, sf::RenderWindow *window) {
+//    PrintField print_field(window);
     if (!field.getCell((field.getHeight() + field.getActiveCellY() + 2) %
                        field.getHeight(), field.getActiveCellX()).getBarrier()) {
         field.moveDown(2, player);
     } else {
         throw PlayerMoveException(field.getActiveCellX(), field.getActiveCellY() + 2, " is barrier!");
     }
-    print_field.print(field);
+//    print_field.print(field);
 }
 
-void Controller::doubleMovePlayerRight(Field &field, Player &player) {
-    PrintField print_field;
+void Controller::doubleMovePlayerRight(Field &field, Player &player, sf::RenderWindow *window) {
+//    PrintField print_field(window);
     if (!field.getCell(field.getActiveCellY(), (field.getWidth() + field.getActiveCellX() + 2) %
                                                field.getWidth()).getBarrier()) {
         field.moveRight(2, player);
     } else {
         throw PlayerMoveException(field.getActiveCellX() + 2, field.getActiveCellY(), " is barrier!");
     }
-    print_field.print(field);
+//    print_field.print(field);
 }
 
-void Controller::doubleMovePlayerLeft(Field &field, Player &player) {
-    PrintField print_field;
+void Controller::doubleMovePlayerLeft(Field &field, Player &player, sf::RenderWindow *window) {
+//    PrintField print_field(window);
     if (!field.getCell(field.getActiveCellY(), (field.getWidth() + field.getActiveCellX() - 2) %
                                                field.getWidth()).getBarrier()) {
         field.moveLeft(2, player);
     } else {
         throw PlayerMoveException(field.getActiveCellX() - 2, field.getActiveCellY(), " is barrier!");
     }
-    print_field.print(field);
+//    print_field.print(field);
 }
 
 void Controller::printPlayerInfo(Player &player) {
@@ -98,86 +98,48 @@ void Controller::printPlayerInfo(Player &player) {
 
 void
 Controller::getAction(bool &game, Player &player, Field *&field, IReader *reader, InputCommands *file_input, Log *&log,
-                      IGameObserver *game_observer) {
-    switch (reader->getDirection(file_input)) {
-        case Direction::UP:
-            try {
-                Controller::movePlayerUp(*field, player);
-            } catch (const PlayerMoveException &e) {
-                field->getFieldObserver()->stepOnBarrier(std::string(e.what()));
-            }
+                      IGameObserver *game_observer, sf::RenderWindow *window, sf::Event ev) {
+//    switch (reader->getDirection(file_input)) {
+    bool flag = true;
+    switch (ev.type) {
+        case sf::Event::Closed:
+            window->close();
+            flag = false;
             break;
-        case Direction::DOWN:
-            try {
-                Controller::movePlayerDown(*field, player);
+        case sf::Event::KeyPressed:
+            flag = false;
+            if (ev.key.code == sf::Keyboard::Escape)
+                window->close();
+            if (ev.key.code == sf::Keyboard::D) {
+                try {
+                    Controller::movePlayerRight(*field, player, window);
 
-            } catch (const PlayerMoveException &e) {
-                field->getFieldObserver()->stepOnBarrier(std::string(e.what()));
+                } catch (const PlayerMoveException &e) {
+                    field->getFieldObserver()->stepOnBarrier(std::string(e.what()));
+                }
             }
-            break;
-        case Direction::LEFT:
-            try {
-                Controller::movePlayerLeft(*field, player);
-            } catch (const PlayerMoveException &e) {
-                field->getFieldObserver()->stepOnBarrier(std::string(e.what()));
+            if (ev.key.code == sf::Keyboard::A) {
+                try {
+                    Controller::movePlayerLeft(*field, player, window);
+                } catch (const PlayerMoveException &e) {
+                    field->getFieldObserver()->stepOnBarrier(std::string(e.what()));
+                }
             }
-            break;
-        case Direction::RIGHT:
-            try {
-                Controller::movePlayerRight(*field, player);
-            } catch (const PlayerMoveException &e) {
-                field->getFieldObserver()->stepOnBarrier(std::string(e.what()));
+            if (ev.key.code == sf::Keyboard::S) {
+                try {
+                    Controller::movePlayerDown(*field, player, window);
+
+                } catch (const PlayerMoveException &e) {
+                    field->getFieldObserver()->stepOnBarrier(std::string(e.what()));
+                }
             }
-            break;
-        case Direction::DOUBLE_UP:
-            try {
-                Controller::doubleMovePlayerUp(*field, player);
-            } catch (const PlayerMoveException &e) {
-                field->getFieldObserver()->stepOnBarrier(std::string(e.what()));
+            if (ev.key.code == sf::Keyboard::W) {
+                try {
+                    Controller::movePlayerUp(*field, player, window);
+                } catch (const PlayerMoveException &e) {
+                    field->getFieldObserver()->stepOnBarrier(std::string(e.what()));
+                }
             }
-            break;
-        case Direction::DOUBLE_DOWN:
-            try {
-                Controller::doubleMovePlayerDown(*field, player);
-            } catch (const PlayerMoveException &e) {
-                field->getFieldObserver()->stepOnBarrier(std::string(e.what()));
-            }
-            break;
-        case Direction::DOUBLE_LEFT:
-            try {
-                Controller::doubleMovePlayerLeft(*field, player);
-            } catch (const PlayerMoveException &e) {
-                field->getFieldObserver()->stepOnBarrier(std::string(e.what()));
-            }
-            break;
-        case Direction::DOUBLE_RIGHT:
-            try {
-                Controller::doubleMovePlayerRight(*field, player);
-            } catch (const PlayerMoveException &e) {
-                field->getFieldObserver()->stepOnBarrier(std::string(e.what()));
-            }
-            break;
-        case Direction::EXIT:
-            game = false;
-            break;
-        case Direction::SAVE:
-            Controller::saveGame(*field, player);
-            game_observer->gameSaved(*log);
-            break;
-        case Direction::LOAD:
-//            loadData(game_observer, log);
-//            delete field;
-//            delete log;
-//            log = loadLog();
-//            field = loadField(*log);
-//            field->setObserver(*log);
-//            loadPlayer(player);
-//            player.setObserver(*log);
-//            changeEventsObserver(field, log);
-//            game_observer->gameLoaded(*log);
-            load(player, field, log, game_observer);
-            break;
-        case Direction::NONE:
             break;
     }
     if (player.getDead() or player.getWin()) {
@@ -613,7 +575,7 @@ void Controller::changeEventsObserver(Field *field, Log *log) {
 void Controller::load(Player &player, Field *&field, Log *&log, IGameObserver *game_observer) {
     try {
         loadData(game_observer, log);
-    } catch (const SaveException &e){
+    } catch (const SaveException &e) {
         return;
     }
     loadData(game_observer, log);

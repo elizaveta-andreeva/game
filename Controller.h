@@ -7,6 +7,7 @@
 #include "Readers/ConsoleCommandReader.h"
 #include "Log/Log.h"
 #include "Log/Observers/IGameObserver.h"
+#include <SFML/Graphics.hpp>
 
 class SaveException : public std::exception {
 public:
@@ -42,15 +43,15 @@ public:
     bool isFileLogger(IReader *reader);
     bool isConsoleLogger(IReader *reader);
 
-    void movePlayerUp(Field& field, Player& player);
-    void movePlayerDown(Field &field, Player& player);
-    void movePlayerRight(Field &field, Player& player);
-    void movePlayerLeft(Field &field, Player& player);
+    void movePlayerUp(Field& field, Player& player, sf::RenderWindow* window);
+    void movePlayerDown(Field &field, Player& player, sf::RenderWindow* window);
+    void movePlayerRight(Field &field, Player& player, sf::RenderWindow* window);
+    void movePlayerLeft(Field &field, Player& player, sf::RenderWindow* window);
 
-    void doubleMovePlayerUp(Field& field, Player& player);
-    void doubleMovePlayerDown(Field& field, Player& player);
-    void doubleMovePlayerRight(Field& field, Player& player);
-    void doubleMovePlayerLeft(Field& field, Player& player);
+    void doubleMovePlayerUp(Field& field, Player& player, sf::RenderWindow* window);
+    void doubleMovePlayerDown(Field& field, Player& player, sf::RenderWindow* window);
+    void doubleMovePlayerRight(Field& field, Player& player, sf::RenderWindow* window);
+    void doubleMovePlayerLeft(Field& field, Player& player, sf::RenderWindow* window);
     void setFileInputObserver(Log *log, InputCommands *file_input);
     void setFieldObserver(Field *field, Log *log);
     void setPlayerObserver(Player &player, Log *log);
@@ -62,7 +63,8 @@ public:
     bool getIsFileValid();
     void load(Player &player, Field *&field, Log *&log, IGameObserver *game_observer);
 
-    void getAction(bool &game, Player &player, Field *&field, IReader *reader, InputCommands *file_input, Log *&log, IGameObserver *game_observer);
+    void getAction(bool &game, Player &player, Field *&field, IReader *reader, InputCommands *file_input, Log *&log,
+                   IGameObserver *game_observer, sf::RenderWindow* window, sf::Event ev);
     void printPlayerInfo(Player &player);
     void printUserInfo();
     int getCommand(IReader *reader);

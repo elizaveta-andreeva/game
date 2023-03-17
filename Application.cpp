@@ -40,9 +40,9 @@ void Application::start() {
     InputCommands *file_input;
     file_input = new FileInputCommands;
     file_input->setObserver(*log);
-    try{
+    try {
         file_input->setCommands();
-    } catch(const FileInputException &e){
+    } catch (const FileInputException &e) {
         file_input->getObserver()->wrongData(std::string(e.what()));
     }
 
@@ -62,20 +62,29 @@ void Application::start() {
     field->setObserver(*log);
 
 
-    PrintField print_field;
+    PrintField print_field(field);
     Player player;
     if (difficulty == GameDifficulty::MEDIUM)
         player.setPointsToWin(200);
     player.setObserver(*log);
 
-    print_field.print(*field);
+    this->initWindow();
+//    print_field.print(*field);
 
 
     controller.printPlayerInfo(player);
-    while (game) {
-        controller.getAction(game, player, field, reader, file_input, log, game_observer);
-        print_field.print(*field);
-        controller.printPlayerInfo(player);
+    ;
+    while (game and window->isOpen()) {
+        while (window->pollEvent(ev)) {
+            controller.getAction(game, player, field, reader, file_input, log, game_observer, this->window, this->ev);
+//        print_field.print(*field);
+//        controller.printPlayerInfo(player);
+//            field_shape.setPosition(sf::Vector2f(field->getActiveCellX() * 15, field->getActiveCellY() * 15));
+            window->clear();
+//            window->draw(field_shape);
+            print_field.print(*field, *this->window);
+            window->display();
+        }
     }
     game_observer->gameEnded(*log);
     delete file_input;
@@ -90,54 +99,64 @@ Application::Application() : game(true) {
 
 Application::~Application() {
     delete game_observer;
+    delete window;
 }
 
 void Application::load() {
-    Controller controller;
-    IReader *reader = new ConsoleCommandReader;
-    Player player;
-    try{
-        controller.getIsFileValid();
-    } catch(SaveException &e){
-        std::cout << "[ERROR] Invalid file for load!\n";
-        system("pause");
-        return;
-    } //!!!!!!!!exeption
-    Log *log = nullptr;
-    Field *field = nullptr;
-    controller.loadData(game_observer, log);
-
-    log = controller.loadLog();
-    field = controller.loadField(*log);
-    controller.loadPlayer(player);
-
-    InputCommands *file_input;
-    file_input = new FileInputCommands;
-    controller.setFileInputObserver(log, file_input);
-    file_input->setCommands();
-
-    controller.setFieldObserver(field, log);
-
-    PrintField print_field;
-    controller.setPlayerObserver(player, log);
-
-    print_field.print(*field);
-
-
-    controller.printPlayerInfo(player);
-    while (game) {
-        controller.getAction(game, player, field, reader, file_input, log, game_observer);
-        print_field.print(*field);
-        controller.printPlayerInfo(player);
-    }
-    game_observer->gameEnded(*log);
-    delete file_input;
-    delete reader;
-    delete log;
-    delete field;
+//    Controller controller;
+//    IReader *reader = new ConsoleCommandReader;
+//    Player player;
+//    try{
+//        controller.getIsFileValid();
+//    } catch(SaveException &e){
+//        std::cout << "[ERROR] Invalid file for load!\n";
+//        system("pause");
+//        return;
+//    } //!!!!!!!!exeption
+//    Log *log = nullptr;
+//    Field *field = nullptr;
+//    controller.loadData(game_observer, log);
+//
+//    log = controller.loadLog();
+//    field = controller.loadField(*log);
+//    controller.loadPlayer(player);
+//
+//    InputCommands *file_input;
+//    file_input = new FileInputCommands;
+//    controller.setFileInputObserver(log, file_input);
+//    file_input->setCommands();
+//
+//    controller.setFieldObserver(field, log);
+//
+//    PrintField print_field;
+//    controller.setPlayerObserver(player, log);
+//
+//    print_field.print(*field);
+//
+//
+//    controller.printPlayerInfo(player);
+//    while (game) {
+//        controller.getAction(game, player, field, reader, file_input, log, game_observer);
+//        print_field.print(*field);
+//        controller.printPlayerInfo(player);
+//    }
+//    game_observer->gameEnded(*log);
+//    delete file_input;
+//    delete reader;
+//    delete log;
+//    delete field;
 }
 
 void Application::exit() {
 
+}
+
+void Application::initWindow() {
+    this->videoMode.height = 600;
+    this->videoMode.width = 800;
+
+    this->window = new sf::RenderWindow(this->videoMode, "Game", sf::Style::Titlebar | sf::Style::Close);
+
+    this->window->setFramerateLimit(60);
 }
 

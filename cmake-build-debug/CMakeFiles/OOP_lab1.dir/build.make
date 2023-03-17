@@ -43,10 +43,10 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2022.3\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = C:\Users\Elizaveta\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\bin\cmake.exe
 
 # The command to remove a file.
-RM = "C:\Program Files\JetBrains\CLion 2022.3\bin\cmake\win\bin\cmake.exe" -E rm -f
+RM = C:\Users\Elizaveta\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\bin\cmake.exe -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -69,564 +69,604 @@ include CMakeFiles/OOP_lab1.dir/progress.make
 include CMakeFiles/OOP_lab1.dir/flags.make
 
 CMakeFiles/OOP_lab1.dir/main.cpp.obj: CMakeFiles/OOP_lab1.dir/flags.make
+CMakeFiles/OOP_lab1.dir/main.cpp.obj: CMakeFiles/OOP_lab1.dir/includes_CXX.rsp
 CMakeFiles/OOP_lab1.dir/main.cpp.obj: C:/Users/Elizaveta/CLionProjects/OOP_lab1_draft/main.cpp
 CMakeFiles/OOP_lab1.dir/main.cpp.obj: CMakeFiles/OOP_lab1.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/OOP_lab1.dir/main.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OOP_lab1.dir/main.cpp.obj -MF CMakeFiles\OOP_lab1.dir\main.cpp.obj.d -o CMakeFiles\OOP_lab1.dir\main.cpp.obj -c C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\main.cpp
+	C:\Users\Elizaveta\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OOP_lab1.dir/main.cpp.obj -MF CMakeFiles\OOP_lab1.dir\main.cpp.obj.d -o CMakeFiles\OOP_lab1.dir\main.cpp.obj -c C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\main.cpp
 
 CMakeFiles/OOP_lab1.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OOP_lab1.dir/main.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\main.cpp > CMakeFiles\OOP_lab1.dir\main.cpp.i
+	C:\Users\Elizaveta\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\main.cpp > CMakeFiles\OOP_lab1.dir\main.cpp.i
 
 CMakeFiles/OOP_lab1.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OOP_lab1.dir/main.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\main.cpp -o CMakeFiles\OOP_lab1.dir\main.cpp.s
+	C:\Users\Elizaveta\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\main.cpp -o CMakeFiles\OOP_lab1.dir\main.cpp.s
 
 CMakeFiles/OOP_lab1.dir/Objects/Player.cpp.obj: CMakeFiles/OOP_lab1.dir/flags.make
+CMakeFiles/OOP_lab1.dir/Objects/Player.cpp.obj: CMakeFiles/OOP_lab1.dir/includes_CXX.rsp
 CMakeFiles/OOP_lab1.dir/Objects/Player.cpp.obj: C:/Users/Elizaveta/CLionProjects/OOP_lab1_draft/Objects/Player.cpp
 CMakeFiles/OOP_lab1.dir/Objects/Player.cpp.obj: CMakeFiles/OOP_lab1.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/OOP_lab1.dir/Objects/Player.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OOP_lab1.dir/Objects/Player.cpp.obj -MF CMakeFiles\OOP_lab1.dir\Objects\Player.cpp.obj.d -o CMakeFiles\OOP_lab1.dir\Objects\Player.cpp.obj -c C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\Objects\Player.cpp
+	C:\Users\Elizaveta\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OOP_lab1.dir/Objects/Player.cpp.obj -MF CMakeFiles\OOP_lab1.dir\Objects\Player.cpp.obj.d -o CMakeFiles\OOP_lab1.dir\Objects\Player.cpp.obj -c C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\Objects\Player.cpp
 
 CMakeFiles/OOP_lab1.dir/Objects/Player.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OOP_lab1.dir/Objects/Player.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\Objects\Player.cpp > CMakeFiles\OOP_lab1.dir\Objects\Player.cpp.i
+	C:\Users\Elizaveta\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\Objects\Player.cpp > CMakeFiles\OOP_lab1.dir\Objects\Player.cpp.i
 
 CMakeFiles/OOP_lab1.dir/Objects/Player.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OOP_lab1.dir/Objects/Player.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\Objects\Player.cpp -o CMakeFiles\OOP_lab1.dir\Objects\Player.cpp.s
+	C:\Users\Elizaveta\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\Objects\Player.cpp -o CMakeFiles\OOP_lab1.dir\Objects\Player.cpp.s
 
 CMakeFiles/OOP_lab1.dir/Objects/Cell.cpp.obj: CMakeFiles/OOP_lab1.dir/flags.make
+CMakeFiles/OOP_lab1.dir/Objects/Cell.cpp.obj: CMakeFiles/OOP_lab1.dir/includes_CXX.rsp
 CMakeFiles/OOP_lab1.dir/Objects/Cell.cpp.obj: C:/Users/Elizaveta/CLionProjects/OOP_lab1_draft/Objects/Cell.cpp
 CMakeFiles/OOP_lab1.dir/Objects/Cell.cpp.obj: CMakeFiles/OOP_lab1.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/OOP_lab1.dir/Objects/Cell.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OOP_lab1.dir/Objects/Cell.cpp.obj -MF CMakeFiles\OOP_lab1.dir\Objects\Cell.cpp.obj.d -o CMakeFiles\OOP_lab1.dir\Objects\Cell.cpp.obj -c C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\Objects\Cell.cpp
+	C:\Users\Elizaveta\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OOP_lab1.dir/Objects/Cell.cpp.obj -MF CMakeFiles\OOP_lab1.dir\Objects\Cell.cpp.obj.d -o CMakeFiles\OOP_lab1.dir\Objects\Cell.cpp.obj -c C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\Objects\Cell.cpp
 
 CMakeFiles/OOP_lab1.dir/Objects/Cell.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OOP_lab1.dir/Objects/Cell.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\Objects\Cell.cpp > CMakeFiles\OOP_lab1.dir\Objects\Cell.cpp.i
+	C:\Users\Elizaveta\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\Objects\Cell.cpp > CMakeFiles\OOP_lab1.dir\Objects\Cell.cpp.i
 
 CMakeFiles/OOP_lab1.dir/Objects/Cell.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OOP_lab1.dir/Objects/Cell.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\Objects\Cell.cpp -o CMakeFiles\OOP_lab1.dir\Objects\Cell.cpp.s
+	C:\Users\Elizaveta\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\Objects\Cell.cpp -o CMakeFiles\OOP_lab1.dir\Objects\Cell.cpp.s
 
 CMakeFiles/OOP_lab1.dir/Objects/Field.cpp.obj: CMakeFiles/OOP_lab1.dir/flags.make
+CMakeFiles/OOP_lab1.dir/Objects/Field.cpp.obj: CMakeFiles/OOP_lab1.dir/includes_CXX.rsp
 CMakeFiles/OOP_lab1.dir/Objects/Field.cpp.obj: C:/Users/Elizaveta/CLionProjects/OOP_lab1_draft/Objects/Field.cpp
 CMakeFiles/OOP_lab1.dir/Objects/Field.cpp.obj: CMakeFiles/OOP_lab1.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/OOP_lab1.dir/Objects/Field.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OOP_lab1.dir/Objects/Field.cpp.obj -MF CMakeFiles\OOP_lab1.dir\Objects\Field.cpp.obj.d -o CMakeFiles\OOP_lab1.dir\Objects\Field.cpp.obj -c C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\Objects\Field.cpp
+	C:\Users\Elizaveta\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OOP_lab1.dir/Objects/Field.cpp.obj -MF CMakeFiles\OOP_lab1.dir\Objects\Field.cpp.obj.d -o CMakeFiles\OOP_lab1.dir\Objects\Field.cpp.obj -c C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\Objects\Field.cpp
 
 CMakeFiles/OOP_lab1.dir/Objects/Field.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OOP_lab1.dir/Objects/Field.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\Objects\Field.cpp > CMakeFiles\OOP_lab1.dir\Objects\Field.cpp.i
+	C:\Users\Elizaveta\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\Objects\Field.cpp > CMakeFiles\OOP_lab1.dir\Objects\Field.cpp.i
 
 CMakeFiles/OOP_lab1.dir/Objects/Field.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OOP_lab1.dir/Objects/Field.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\Objects\Field.cpp -o CMakeFiles\OOP_lab1.dir\Objects\Field.cpp.s
+	C:\Users\Elizaveta\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\Objects\Field.cpp -o CMakeFiles\OOP_lab1.dir\Objects\Field.cpp.s
 
 CMakeFiles/OOP_lab1.dir/View/PrintField.cpp.obj: CMakeFiles/OOP_lab1.dir/flags.make
+CMakeFiles/OOP_lab1.dir/View/PrintField.cpp.obj: CMakeFiles/OOP_lab1.dir/includes_CXX.rsp
 CMakeFiles/OOP_lab1.dir/View/PrintField.cpp.obj: C:/Users/Elizaveta/CLionProjects/OOP_lab1_draft/View/PrintField.cpp
 CMakeFiles/OOP_lab1.dir/View/PrintField.cpp.obj: CMakeFiles/OOP_lab1.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/OOP_lab1.dir/View/PrintField.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OOP_lab1.dir/View/PrintField.cpp.obj -MF CMakeFiles\OOP_lab1.dir\View\PrintField.cpp.obj.d -o CMakeFiles\OOP_lab1.dir\View\PrintField.cpp.obj -c C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\View\PrintField.cpp
+	C:\Users\Elizaveta\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OOP_lab1.dir/View/PrintField.cpp.obj -MF CMakeFiles\OOP_lab1.dir\View\PrintField.cpp.obj.d -o CMakeFiles\OOP_lab1.dir\View\PrintField.cpp.obj -c C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\View\PrintField.cpp
 
 CMakeFiles/OOP_lab1.dir/View/PrintField.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OOP_lab1.dir/View/PrintField.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\View\PrintField.cpp > CMakeFiles\OOP_lab1.dir\View\PrintField.cpp.i
+	C:\Users\Elizaveta\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\View\PrintField.cpp > CMakeFiles\OOP_lab1.dir\View\PrintField.cpp.i
 
 CMakeFiles/OOP_lab1.dir/View/PrintField.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OOP_lab1.dir/View/PrintField.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\View\PrintField.cpp -o CMakeFiles\OOP_lab1.dir\View\PrintField.cpp.s
+	C:\Users\Elizaveta\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\View\PrintField.cpp -o CMakeFiles\OOP_lab1.dir\View\PrintField.cpp.s
 
 CMakeFiles/OOP_lab1.dir/View/PrintCell.cpp.obj: CMakeFiles/OOP_lab1.dir/flags.make
+CMakeFiles/OOP_lab1.dir/View/PrintCell.cpp.obj: CMakeFiles/OOP_lab1.dir/includes_CXX.rsp
 CMakeFiles/OOP_lab1.dir/View/PrintCell.cpp.obj: C:/Users/Elizaveta/CLionProjects/OOP_lab1_draft/View/PrintCell.cpp
 CMakeFiles/OOP_lab1.dir/View/PrintCell.cpp.obj: CMakeFiles/OOP_lab1.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/OOP_lab1.dir/View/PrintCell.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OOP_lab1.dir/View/PrintCell.cpp.obj -MF CMakeFiles\OOP_lab1.dir\View\PrintCell.cpp.obj.d -o CMakeFiles\OOP_lab1.dir\View\PrintCell.cpp.obj -c C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\View\PrintCell.cpp
+	C:\Users\Elizaveta\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OOP_lab1.dir/View/PrintCell.cpp.obj -MF CMakeFiles\OOP_lab1.dir\View\PrintCell.cpp.obj.d -o CMakeFiles\OOP_lab1.dir\View\PrintCell.cpp.obj -c C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\View\PrintCell.cpp
 
 CMakeFiles/OOP_lab1.dir/View/PrintCell.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OOP_lab1.dir/View/PrintCell.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\View\PrintCell.cpp > CMakeFiles\OOP_lab1.dir\View\PrintCell.cpp.i
+	C:\Users\Elizaveta\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\View\PrintCell.cpp > CMakeFiles\OOP_lab1.dir\View\PrintCell.cpp.i
 
 CMakeFiles/OOP_lab1.dir/View/PrintCell.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OOP_lab1.dir/View/PrintCell.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\View\PrintCell.cpp -o CMakeFiles\OOP_lab1.dir\View\PrintCell.cpp.s
+	C:\Users\Elizaveta\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\View\PrintCell.cpp -o CMakeFiles\OOP_lab1.dir\View\PrintCell.cpp.s
 
 CMakeFiles/OOP_lab1.dir/Events/GoodEvents.cpp.obj: CMakeFiles/OOP_lab1.dir/flags.make
+CMakeFiles/OOP_lab1.dir/Events/GoodEvents.cpp.obj: CMakeFiles/OOP_lab1.dir/includes_CXX.rsp
 CMakeFiles/OOP_lab1.dir/Events/GoodEvents.cpp.obj: C:/Users/Elizaveta/CLionProjects/OOP_lab1_draft/Events/GoodEvents.cpp
 CMakeFiles/OOP_lab1.dir/Events/GoodEvents.cpp.obj: CMakeFiles/OOP_lab1.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/OOP_lab1.dir/Events/GoodEvents.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OOP_lab1.dir/Events/GoodEvents.cpp.obj -MF CMakeFiles\OOP_lab1.dir\Events\GoodEvents.cpp.obj.d -o CMakeFiles\OOP_lab1.dir\Events\GoodEvents.cpp.obj -c C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\Events\GoodEvents.cpp
+	C:\Users\Elizaveta\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OOP_lab1.dir/Events/GoodEvents.cpp.obj -MF CMakeFiles\OOP_lab1.dir\Events\GoodEvents.cpp.obj.d -o CMakeFiles\OOP_lab1.dir\Events\GoodEvents.cpp.obj -c C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\Events\GoodEvents.cpp
 
 CMakeFiles/OOP_lab1.dir/Events/GoodEvents.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OOP_lab1.dir/Events/GoodEvents.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\Events\GoodEvents.cpp > CMakeFiles\OOP_lab1.dir\Events\GoodEvents.cpp.i
+	C:\Users\Elizaveta\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\Events\GoodEvents.cpp > CMakeFiles\OOP_lab1.dir\Events\GoodEvents.cpp.i
 
 CMakeFiles/OOP_lab1.dir/Events/GoodEvents.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OOP_lab1.dir/Events/GoodEvents.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\Events\GoodEvents.cpp -o CMakeFiles\OOP_lab1.dir\Events\GoodEvents.cpp.s
+	C:\Users\Elizaveta\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\Events\GoodEvents.cpp -o CMakeFiles\OOP_lab1.dir\Events\GoodEvents.cpp.s
 
 CMakeFiles/OOP_lab1.dir/Events/BadEvents.cpp.obj: CMakeFiles/OOP_lab1.dir/flags.make
+CMakeFiles/OOP_lab1.dir/Events/BadEvents.cpp.obj: CMakeFiles/OOP_lab1.dir/includes_CXX.rsp
 CMakeFiles/OOP_lab1.dir/Events/BadEvents.cpp.obj: C:/Users/Elizaveta/CLionProjects/OOP_lab1_draft/Events/BadEvents.cpp
 CMakeFiles/OOP_lab1.dir/Events/BadEvents.cpp.obj: CMakeFiles/OOP_lab1.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/OOP_lab1.dir/Events/BadEvents.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OOP_lab1.dir/Events/BadEvents.cpp.obj -MF CMakeFiles\OOP_lab1.dir\Events\BadEvents.cpp.obj.d -o CMakeFiles\OOP_lab1.dir\Events\BadEvents.cpp.obj -c C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\Events\BadEvents.cpp
+	C:\Users\Elizaveta\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OOP_lab1.dir/Events/BadEvents.cpp.obj -MF CMakeFiles\OOP_lab1.dir\Events\BadEvents.cpp.obj.d -o CMakeFiles\OOP_lab1.dir\Events\BadEvents.cpp.obj -c C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\Events\BadEvents.cpp
 
 CMakeFiles/OOP_lab1.dir/Events/BadEvents.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OOP_lab1.dir/Events/BadEvents.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\Events\BadEvents.cpp > CMakeFiles\OOP_lab1.dir\Events\BadEvents.cpp.i
+	C:\Users\Elizaveta\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\Events\BadEvents.cpp > CMakeFiles\OOP_lab1.dir\Events\BadEvents.cpp.i
 
 CMakeFiles/OOP_lab1.dir/Events/BadEvents.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OOP_lab1.dir/Events/BadEvents.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\Events\BadEvents.cpp -o CMakeFiles\OOP_lab1.dir\Events\BadEvents.cpp.s
+	C:\Users\Elizaveta\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\Events\BadEvents.cpp -o CMakeFiles\OOP_lab1.dir\Events\BadEvents.cpp.s
 
 CMakeFiles/OOP_lab1.dir/Events/Enemy.cpp.obj: CMakeFiles/OOP_lab1.dir/flags.make
+CMakeFiles/OOP_lab1.dir/Events/Enemy.cpp.obj: CMakeFiles/OOP_lab1.dir/includes_CXX.rsp
 CMakeFiles/OOP_lab1.dir/Events/Enemy.cpp.obj: C:/Users/Elizaveta/CLionProjects/OOP_lab1_draft/Events/Enemy.cpp
 CMakeFiles/OOP_lab1.dir/Events/Enemy.cpp.obj: CMakeFiles/OOP_lab1.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/OOP_lab1.dir/Events/Enemy.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OOP_lab1.dir/Events/Enemy.cpp.obj -MF CMakeFiles\OOP_lab1.dir\Events\Enemy.cpp.obj.d -o CMakeFiles\OOP_lab1.dir\Events\Enemy.cpp.obj -c C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\Events\Enemy.cpp
+	C:\Users\Elizaveta\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OOP_lab1.dir/Events/Enemy.cpp.obj -MF CMakeFiles\OOP_lab1.dir\Events\Enemy.cpp.obj.d -o CMakeFiles\OOP_lab1.dir\Events\Enemy.cpp.obj -c C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\Events\Enemy.cpp
 
 CMakeFiles/OOP_lab1.dir/Events/Enemy.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OOP_lab1.dir/Events/Enemy.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\Events\Enemy.cpp > CMakeFiles\OOP_lab1.dir\Events\Enemy.cpp.i
+	C:\Users\Elizaveta\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\Events\Enemy.cpp > CMakeFiles\OOP_lab1.dir\Events\Enemy.cpp.i
 
 CMakeFiles/OOP_lab1.dir/Events/Enemy.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OOP_lab1.dir/Events/Enemy.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\Events\Enemy.cpp -o CMakeFiles\OOP_lab1.dir\Events\Enemy.cpp.s
+	C:\Users\Elizaveta\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\Events\Enemy.cpp -o CMakeFiles\OOP_lab1.dir\Events\Enemy.cpp.s
 
 CMakeFiles/OOP_lab1.dir/Events/Trap.cpp.obj: CMakeFiles/OOP_lab1.dir/flags.make
+CMakeFiles/OOP_lab1.dir/Events/Trap.cpp.obj: CMakeFiles/OOP_lab1.dir/includes_CXX.rsp
 CMakeFiles/OOP_lab1.dir/Events/Trap.cpp.obj: C:/Users/Elizaveta/CLionProjects/OOP_lab1_draft/Events/Trap.cpp
 CMakeFiles/OOP_lab1.dir/Events/Trap.cpp.obj: CMakeFiles/OOP_lab1.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/OOP_lab1.dir/Events/Trap.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OOP_lab1.dir/Events/Trap.cpp.obj -MF CMakeFiles\OOP_lab1.dir\Events\Trap.cpp.obj.d -o CMakeFiles\OOP_lab1.dir\Events\Trap.cpp.obj -c C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\Events\Trap.cpp
+	C:\Users\Elizaveta\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OOP_lab1.dir/Events/Trap.cpp.obj -MF CMakeFiles\OOP_lab1.dir\Events\Trap.cpp.obj.d -o CMakeFiles\OOP_lab1.dir\Events\Trap.cpp.obj -c C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\Events\Trap.cpp
 
 CMakeFiles/OOP_lab1.dir/Events/Trap.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OOP_lab1.dir/Events/Trap.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\Events\Trap.cpp > CMakeFiles\OOP_lab1.dir\Events\Trap.cpp.i
+	C:\Users\Elizaveta\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\Events\Trap.cpp > CMakeFiles\OOP_lab1.dir\Events\Trap.cpp.i
 
 CMakeFiles/OOP_lab1.dir/Events/Trap.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OOP_lab1.dir/Events/Trap.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\Events\Trap.cpp -o CMakeFiles\OOP_lab1.dir\Events\Trap.cpp.s
+	C:\Users\Elizaveta\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\Events\Trap.cpp -o CMakeFiles\OOP_lab1.dir\Events\Trap.cpp.s
 
 CMakeFiles/OOP_lab1.dir/Events/Food.cpp.obj: CMakeFiles/OOP_lab1.dir/flags.make
+CMakeFiles/OOP_lab1.dir/Events/Food.cpp.obj: CMakeFiles/OOP_lab1.dir/includes_CXX.rsp
 CMakeFiles/OOP_lab1.dir/Events/Food.cpp.obj: C:/Users/Elizaveta/CLionProjects/OOP_lab1_draft/Events/Food.cpp
 CMakeFiles/OOP_lab1.dir/Events/Food.cpp.obj: CMakeFiles/OOP_lab1.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/OOP_lab1.dir/Events/Food.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OOP_lab1.dir/Events/Food.cpp.obj -MF CMakeFiles\OOP_lab1.dir\Events\Food.cpp.obj.d -o CMakeFiles\OOP_lab1.dir\Events\Food.cpp.obj -c C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\Events\Food.cpp
+	C:\Users\Elizaveta\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OOP_lab1.dir/Events/Food.cpp.obj -MF CMakeFiles\OOP_lab1.dir\Events\Food.cpp.obj.d -o CMakeFiles\OOP_lab1.dir\Events\Food.cpp.obj -c C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\Events\Food.cpp
 
 CMakeFiles/OOP_lab1.dir/Events/Food.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OOP_lab1.dir/Events/Food.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\Events\Food.cpp > CMakeFiles\OOP_lab1.dir\Events\Food.cpp.i
+	C:\Users\Elizaveta\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\Events\Food.cpp > CMakeFiles\OOP_lab1.dir\Events\Food.cpp.i
 
 CMakeFiles/OOP_lab1.dir/Events/Food.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OOP_lab1.dir/Events/Food.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\Events\Food.cpp -o CMakeFiles\OOP_lab1.dir\Events\Food.cpp.s
+	C:\Users\Elizaveta\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\Events\Food.cpp -o CMakeFiles\OOP_lab1.dir\Events\Food.cpp.s
 
 CMakeFiles/OOP_lab1.dir/Events/Money.cpp.obj: CMakeFiles/OOP_lab1.dir/flags.make
+CMakeFiles/OOP_lab1.dir/Events/Money.cpp.obj: CMakeFiles/OOP_lab1.dir/includes_CXX.rsp
 CMakeFiles/OOP_lab1.dir/Events/Money.cpp.obj: C:/Users/Elizaveta/CLionProjects/OOP_lab1_draft/Events/Money.cpp
 CMakeFiles/OOP_lab1.dir/Events/Money.cpp.obj: CMakeFiles/OOP_lab1.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/OOP_lab1.dir/Events/Money.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OOP_lab1.dir/Events/Money.cpp.obj -MF CMakeFiles\OOP_lab1.dir\Events\Money.cpp.obj.d -o CMakeFiles\OOP_lab1.dir\Events\Money.cpp.obj -c C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\Events\Money.cpp
+	C:\Users\Elizaveta\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OOP_lab1.dir/Events/Money.cpp.obj -MF CMakeFiles\OOP_lab1.dir\Events\Money.cpp.obj.d -o CMakeFiles\OOP_lab1.dir\Events\Money.cpp.obj -c C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\Events\Money.cpp
 
 CMakeFiles/OOP_lab1.dir/Events/Money.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OOP_lab1.dir/Events/Money.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\Events\Money.cpp > CMakeFiles\OOP_lab1.dir\Events\Money.cpp.i
+	C:\Users\Elizaveta\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\Events\Money.cpp > CMakeFiles\OOP_lab1.dir\Events\Money.cpp.i
 
 CMakeFiles/OOP_lab1.dir/Events/Money.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OOP_lab1.dir/Events/Money.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\Events\Money.cpp -o CMakeFiles\OOP_lab1.dir\Events\Money.cpp.s
+	C:\Users\Elizaveta\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\Events\Money.cpp -o CMakeFiles\OOP_lab1.dir\Events\Money.cpp.s
 
 CMakeFiles/OOP_lab1.dir/Factory/EnemyFactory.cpp.obj: CMakeFiles/OOP_lab1.dir/flags.make
+CMakeFiles/OOP_lab1.dir/Factory/EnemyFactory.cpp.obj: CMakeFiles/OOP_lab1.dir/includes_CXX.rsp
 CMakeFiles/OOP_lab1.dir/Factory/EnemyFactory.cpp.obj: C:/Users/Elizaveta/CLionProjects/OOP_lab1_draft/Factory/EnemyFactory.cpp
 CMakeFiles/OOP_lab1.dir/Factory/EnemyFactory.cpp.obj: CMakeFiles/OOP_lab1.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/OOP_lab1.dir/Factory/EnemyFactory.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OOP_lab1.dir/Factory/EnemyFactory.cpp.obj -MF CMakeFiles\OOP_lab1.dir\Factory\EnemyFactory.cpp.obj.d -o CMakeFiles\OOP_lab1.dir\Factory\EnemyFactory.cpp.obj -c C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\Factory\EnemyFactory.cpp
+	C:\Users\Elizaveta\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OOP_lab1.dir/Factory/EnemyFactory.cpp.obj -MF CMakeFiles\OOP_lab1.dir\Factory\EnemyFactory.cpp.obj.d -o CMakeFiles\OOP_lab1.dir\Factory\EnemyFactory.cpp.obj -c C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\Factory\EnemyFactory.cpp
 
 CMakeFiles/OOP_lab1.dir/Factory/EnemyFactory.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OOP_lab1.dir/Factory/EnemyFactory.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\Factory\EnemyFactory.cpp > CMakeFiles\OOP_lab1.dir\Factory\EnemyFactory.cpp.i
+	C:\Users\Elizaveta\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\Factory\EnemyFactory.cpp > CMakeFiles\OOP_lab1.dir\Factory\EnemyFactory.cpp.i
 
 CMakeFiles/OOP_lab1.dir/Factory/EnemyFactory.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OOP_lab1.dir/Factory/EnemyFactory.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\Factory\EnemyFactory.cpp -o CMakeFiles\OOP_lab1.dir\Factory\EnemyFactory.cpp.s
+	C:\Users\Elizaveta\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\Factory\EnemyFactory.cpp -o CMakeFiles\OOP_lab1.dir\Factory\EnemyFactory.cpp.s
 
 CMakeFiles/OOP_lab1.dir/Factory/MoneyFactory.cpp.obj: CMakeFiles/OOP_lab1.dir/flags.make
+CMakeFiles/OOP_lab1.dir/Factory/MoneyFactory.cpp.obj: CMakeFiles/OOP_lab1.dir/includes_CXX.rsp
 CMakeFiles/OOP_lab1.dir/Factory/MoneyFactory.cpp.obj: C:/Users/Elizaveta/CLionProjects/OOP_lab1_draft/Factory/MoneyFactory.cpp
 CMakeFiles/OOP_lab1.dir/Factory/MoneyFactory.cpp.obj: CMakeFiles/OOP_lab1.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/OOP_lab1.dir/Factory/MoneyFactory.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OOP_lab1.dir/Factory/MoneyFactory.cpp.obj -MF CMakeFiles\OOP_lab1.dir\Factory\MoneyFactory.cpp.obj.d -o CMakeFiles\OOP_lab1.dir\Factory\MoneyFactory.cpp.obj -c C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\Factory\MoneyFactory.cpp
+	C:\Users\Elizaveta\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OOP_lab1.dir/Factory/MoneyFactory.cpp.obj -MF CMakeFiles\OOP_lab1.dir\Factory\MoneyFactory.cpp.obj.d -o CMakeFiles\OOP_lab1.dir\Factory\MoneyFactory.cpp.obj -c C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\Factory\MoneyFactory.cpp
 
 CMakeFiles/OOP_lab1.dir/Factory/MoneyFactory.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OOP_lab1.dir/Factory/MoneyFactory.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\Factory\MoneyFactory.cpp > CMakeFiles\OOP_lab1.dir\Factory\MoneyFactory.cpp.i
+	C:\Users\Elizaveta\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\Factory\MoneyFactory.cpp > CMakeFiles\OOP_lab1.dir\Factory\MoneyFactory.cpp.i
 
 CMakeFiles/OOP_lab1.dir/Factory/MoneyFactory.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OOP_lab1.dir/Factory/MoneyFactory.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\Factory\MoneyFactory.cpp -o CMakeFiles\OOP_lab1.dir\Factory\MoneyFactory.cpp.s
+	C:\Users\Elizaveta\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\Factory\MoneyFactory.cpp -o CMakeFiles\OOP_lab1.dir\Factory\MoneyFactory.cpp.s
 
 CMakeFiles/OOP_lab1.dir/Factory/FoodFactory.cpp.obj: CMakeFiles/OOP_lab1.dir/flags.make
+CMakeFiles/OOP_lab1.dir/Factory/FoodFactory.cpp.obj: CMakeFiles/OOP_lab1.dir/includes_CXX.rsp
 CMakeFiles/OOP_lab1.dir/Factory/FoodFactory.cpp.obj: C:/Users/Elizaveta/CLionProjects/OOP_lab1_draft/Factory/FoodFactory.cpp
 CMakeFiles/OOP_lab1.dir/Factory/FoodFactory.cpp.obj: CMakeFiles/OOP_lab1.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/OOP_lab1.dir/Factory/FoodFactory.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OOP_lab1.dir/Factory/FoodFactory.cpp.obj -MF CMakeFiles\OOP_lab1.dir\Factory\FoodFactory.cpp.obj.d -o CMakeFiles\OOP_lab1.dir\Factory\FoodFactory.cpp.obj -c C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\Factory\FoodFactory.cpp
+	C:\Users\Elizaveta\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OOP_lab1.dir/Factory/FoodFactory.cpp.obj -MF CMakeFiles\OOP_lab1.dir\Factory\FoodFactory.cpp.obj.d -o CMakeFiles\OOP_lab1.dir\Factory\FoodFactory.cpp.obj -c C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\Factory\FoodFactory.cpp
 
 CMakeFiles/OOP_lab1.dir/Factory/FoodFactory.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OOP_lab1.dir/Factory/FoodFactory.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\Factory\FoodFactory.cpp > CMakeFiles\OOP_lab1.dir\Factory\FoodFactory.cpp.i
+	C:\Users\Elizaveta\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\Factory\FoodFactory.cpp > CMakeFiles\OOP_lab1.dir\Factory\FoodFactory.cpp.i
 
 CMakeFiles/OOP_lab1.dir/Factory/FoodFactory.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OOP_lab1.dir/Factory/FoodFactory.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\Factory\FoodFactory.cpp -o CMakeFiles\OOP_lab1.dir\Factory\FoodFactory.cpp.s
+	C:\Users\Elizaveta\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\Factory\FoodFactory.cpp -o CMakeFiles\OOP_lab1.dir\Factory\FoodFactory.cpp.s
 
 CMakeFiles/OOP_lab1.dir/Factory/TrapFactory.cpp.obj: CMakeFiles/OOP_lab1.dir/flags.make
+CMakeFiles/OOP_lab1.dir/Factory/TrapFactory.cpp.obj: CMakeFiles/OOP_lab1.dir/includes_CXX.rsp
 CMakeFiles/OOP_lab1.dir/Factory/TrapFactory.cpp.obj: C:/Users/Elizaveta/CLionProjects/OOP_lab1_draft/Factory/TrapFactory.cpp
 CMakeFiles/OOP_lab1.dir/Factory/TrapFactory.cpp.obj: CMakeFiles/OOP_lab1.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/OOP_lab1.dir/Factory/TrapFactory.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OOP_lab1.dir/Factory/TrapFactory.cpp.obj -MF CMakeFiles\OOP_lab1.dir\Factory\TrapFactory.cpp.obj.d -o CMakeFiles\OOP_lab1.dir\Factory\TrapFactory.cpp.obj -c C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\Factory\TrapFactory.cpp
+	C:\Users\Elizaveta\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OOP_lab1.dir/Factory/TrapFactory.cpp.obj -MF CMakeFiles\OOP_lab1.dir\Factory\TrapFactory.cpp.obj.d -o CMakeFiles\OOP_lab1.dir\Factory\TrapFactory.cpp.obj -c C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\Factory\TrapFactory.cpp
 
 CMakeFiles/OOP_lab1.dir/Factory/TrapFactory.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OOP_lab1.dir/Factory/TrapFactory.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\Factory\TrapFactory.cpp > CMakeFiles\OOP_lab1.dir\Factory\TrapFactory.cpp.i
+	C:\Users\Elizaveta\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\Factory\TrapFactory.cpp > CMakeFiles\OOP_lab1.dir\Factory\TrapFactory.cpp.i
 
 CMakeFiles/OOP_lab1.dir/Factory/TrapFactory.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OOP_lab1.dir/Factory/TrapFactory.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\Factory\TrapFactory.cpp -o CMakeFiles\OOP_lab1.dir\Factory\TrapFactory.cpp.s
+	C:\Users\Elizaveta\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\Factory\TrapFactory.cpp -o CMakeFiles\OOP_lab1.dir\Factory\TrapFactory.cpp.s
 
 CMakeFiles/OOP_lab1.dir/Events/Exit.cpp.obj: CMakeFiles/OOP_lab1.dir/flags.make
+CMakeFiles/OOP_lab1.dir/Events/Exit.cpp.obj: CMakeFiles/OOP_lab1.dir/includes_CXX.rsp
 CMakeFiles/OOP_lab1.dir/Events/Exit.cpp.obj: C:/Users/Elizaveta/CLionProjects/OOP_lab1_draft/Events/Exit.cpp
 CMakeFiles/OOP_lab1.dir/Events/Exit.cpp.obj: CMakeFiles/OOP_lab1.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/OOP_lab1.dir/Events/Exit.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OOP_lab1.dir/Events/Exit.cpp.obj -MF CMakeFiles\OOP_lab1.dir\Events\Exit.cpp.obj.d -o CMakeFiles\OOP_lab1.dir\Events\Exit.cpp.obj -c C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\Events\Exit.cpp
+	C:\Users\Elizaveta\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OOP_lab1.dir/Events/Exit.cpp.obj -MF CMakeFiles\OOP_lab1.dir\Events\Exit.cpp.obj.d -o CMakeFiles\OOP_lab1.dir\Events\Exit.cpp.obj -c C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\Events\Exit.cpp
 
 CMakeFiles/OOP_lab1.dir/Events/Exit.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OOP_lab1.dir/Events/Exit.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\Events\Exit.cpp > CMakeFiles\OOP_lab1.dir\Events\Exit.cpp.i
+	C:\Users\Elizaveta\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\Events\Exit.cpp > CMakeFiles\OOP_lab1.dir\Events\Exit.cpp.i
 
 CMakeFiles/OOP_lab1.dir/Events/Exit.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OOP_lab1.dir/Events/Exit.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\Events\Exit.cpp -o CMakeFiles\OOP_lab1.dir\Events\Exit.cpp.s
+	C:\Users\Elizaveta\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\Events\Exit.cpp -o CMakeFiles\OOP_lab1.dir\Events\Exit.cpp.s
 
 CMakeFiles/OOP_lab1.dir/Factory/ExitFactory.cpp.obj: CMakeFiles/OOP_lab1.dir/flags.make
+CMakeFiles/OOP_lab1.dir/Factory/ExitFactory.cpp.obj: CMakeFiles/OOP_lab1.dir/includes_CXX.rsp
 CMakeFiles/OOP_lab1.dir/Factory/ExitFactory.cpp.obj: C:/Users/Elizaveta/CLionProjects/OOP_lab1_draft/Factory/ExitFactory.cpp
 CMakeFiles/OOP_lab1.dir/Factory/ExitFactory.cpp.obj: CMakeFiles/OOP_lab1.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/OOP_lab1.dir/Factory/ExitFactory.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OOP_lab1.dir/Factory/ExitFactory.cpp.obj -MF CMakeFiles\OOP_lab1.dir\Factory\ExitFactory.cpp.obj.d -o CMakeFiles\OOP_lab1.dir\Factory\ExitFactory.cpp.obj -c C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\Factory\ExitFactory.cpp
+	C:\Users\Elizaveta\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OOP_lab1.dir/Factory/ExitFactory.cpp.obj -MF CMakeFiles\OOP_lab1.dir\Factory\ExitFactory.cpp.obj.d -o CMakeFiles\OOP_lab1.dir\Factory\ExitFactory.cpp.obj -c C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\Factory\ExitFactory.cpp
 
 CMakeFiles/OOP_lab1.dir/Factory/ExitFactory.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OOP_lab1.dir/Factory/ExitFactory.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\Factory\ExitFactory.cpp > CMakeFiles\OOP_lab1.dir\Factory\ExitFactory.cpp.i
+	C:\Users\Elizaveta\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\Factory\ExitFactory.cpp > CMakeFiles\OOP_lab1.dir\Factory\ExitFactory.cpp.i
 
 CMakeFiles/OOP_lab1.dir/Factory/ExitFactory.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OOP_lab1.dir/Factory/ExitFactory.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\Factory\ExitFactory.cpp -o CMakeFiles\OOP_lab1.dir\Factory\ExitFactory.cpp.s
+	C:\Users\Elizaveta\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\Factory\ExitFactory.cpp -o CMakeFiles\OOP_lab1.dir\Factory\ExitFactory.cpp.s
 
 CMakeFiles/OOP_lab1.dir/Readers/ConsoleCommandReader.cpp.obj: CMakeFiles/OOP_lab1.dir/flags.make
+CMakeFiles/OOP_lab1.dir/Readers/ConsoleCommandReader.cpp.obj: CMakeFiles/OOP_lab1.dir/includes_CXX.rsp
 CMakeFiles/OOP_lab1.dir/Readers/ConsoleCommandReader.cpp.obj: C:/Users/Elizaveta/CLionProjects/OOP_lab1_draft/Readers/ConsoleCommandReader.cpp
 CMakeFiles/OOP_lab1.dir/Readers/ConsoleCommandReader.cpp.obj: CMakeFiles/OOP_lab1.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/OOP_lab1.dir/Readers/ConsoleCommandReader.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OOP_lab1.dir/Readers/ConsoleCommandReader.cpp.obj -MF CMakeFiles\OOP_lab1.dir\Readers\ConsoleCommandReader.cpp.obj.d -o CMakeFiles\OOP_lab1.dir\Readers\ConsoleCommandReader.cpp.obj -c C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\Readers\ConsoleCommandReader.cpp
+	C:\Users\Elizaveta\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OOP_lab1.dir/Readers/ConsoleCommandReader.cpp.obj -MF CMakeFiles\OOP_lab1.dir\Readers\ConsoleCommandReader.cpp.obj.d -o CMakeFiles\OOP_lab1.dir\Readers\ConsoleCommandReader.cpp.obj -c C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\Readers\ConsoleCommandReader.cpp
 
 CMakeFiles/OOP_lab1.dir/Readers/ConsoleCommandReader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OOP_lab1.dir/Readers/ConsoleCommandReader.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\Readers\ConsoleCommandReader.cpp > CMakeFiles\OOP_lab1.dir\Readers\ConsoleCommandReader.cpp.i
+	C:\Users\Elizaveta\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\Readers\ConsoleCommandReader.cpp > CMakeFiles\OOP_lab1.dir\Readers\ConsoleCommandReader.cpp.i
 
 CMakeFiles/OOP_lab1.dir/Readers/ConsoleCommandReader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OOP_lab1.dir/Readers/ConsoleCommandReader.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\Readers\ConsoleCommandReader.cpp -o CMakeFiles\OOP_lab1.dir\Readers\ConsoleCommandReader.cpp.s
+	C:\Users\Elizaveta\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\Readers\ConsoleCommandReader.cpp -o CMakeFiles\OOP_lab1.dir\Readers\ConsoleCommandReader.cpp.s
 
 CMakeFiles/OOP_lab1.dir/Controller.cpp.obj: CMakeFiles/OOP_lab1.dir/flags.make
+CMakeFiles/OOP_lab1.dir/Controller.cpp.obj: CMakeFiles/OOP_lab1.dir/includes_CXX.rsp
 CMakeFiles/OOP_lab1.dir/Controller.cpp.obj: C:/Users/Elizaveta/CLionProjects/OOP_lab1_draft/Controller.cpp
 CMakeFiles/OOP_lab1.dir/Controller.cpp.obj: CMakeFiles/OOP_lab1.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/OOP_lab1.dir/Controller.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OOP_lab1.dir/Controller.cpp.obj -MF CMakeFiles\OOP_lab1.dir\Controller.cpp.obj.d -o CMakeFiles\OOP_lab1.dir\Controller.cpp.obj -c C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\Controller.cpp
+	C:\Users\Elizaveta\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OOP_lab1.dir/Controller.cpp.obj -MF CMakeFiles\OOP_lab1.dir\Controller.cpp.obj.d -o CMakeFiles\OOP_lab1.dir\Controller.cpp.obj -c C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\Controller.cpp
 
 CMakeFiles/OOP_lab1.dir/Controller.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OOP_lab1.dir/Controller.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\Controller.cpp > CMakeFiles\OOP_lab1.dir\Controller.cpp.i
+	C:\Users\Elizaveta\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\Controller.cpp > CMakeFiles\OOP_lab1.dir\Controller.cpp.i
 
 CMakeFiles/OOP_lab1.dir/Controller.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OOP_lab1.dir/Controller.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\Controller.cpp -o CMakeFiles\OOP_lab1.dir\Controller.cpp.s
+	C:\Users\Elizaveta\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\Controller.cpp -o CMakeFiles\OOP_lab1.dir\Controller.cpp.s
 
 CMakeFiles/OOP_lab1.dir/Application.cpp.obj: CMakeFiles/OOP_lab1.dir/flags.make
+CMakeFiles/OOP_lab1.dir/Application.cpp.obj: CMakeFiles/OOP_lab1.dir/includes_CXX.rsp
 CMakeFiles/OOP_lab1.dir/Application.cpp.obj: C:/Users/Elizaveta/CLionProjects/OOP_lab1_draft/Application.cpp
 CMakeFiles/OOP_lab1.dir/Application.cpp.obj: CMakeFiles/OOP_lab1.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/OOP_lab1.dir/Application.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OOP_lab1.dir/Application.cpp.obj -MF CMakeFiles\OOP_lab1.dir\Application.cpp.obj.d -o CMakeFiles\OOP_lab1.dir\Application.cpp.obj -c C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\Application.cpp
+	C:\Users\Elizaveta\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OOP_lab1.dir/Application.cpp.obj -MF CMakeFiles\OOP_lab1.dir\Application.cpp.obj.d -o CMakeFiles\OOP_lab1.dir\Application.cpp.obj -c C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\Application.cpp
 
 CMakeFiles/OOP_lab1.dir/Application.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OOP_lab1.dir/Application.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\Application.cpp > CMakeFiles\OOP_lab1.dir\Application.cpp.i
+	C:\Users\Elizaveta\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\Application.cpp > CMakeFiles\OOP_lab1.dir\Application.cpp.i
 
 CMakeFiles/OOP_lab1.dir/Application.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OOP_lab1.dir/Application.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\Application.cpp -o CMakeFiles\OOP_lab1.dir\Application.cpp.s
+	C:\Users\Elizaveta\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\Application.cpp -o CMakeFiles\OOP_lab1.dir\Application.cpp.s
 
 CMakeFiles/OOP_lab1.dir/Log/Observers/FieldObserver.cpp.obj: CMakeFiles/OOP_lab1.dir/flags.make
+CMakeFiles/OOP_lab1.dir/Log/Observers/FieldObserver.cpp.obj: CMakeFiles/OOP_lab1.dir/includes_CXX.rsp
 CMakeFiles/OOP_lab1.dir/Log/Observers/FieldObserver.cpp.obj: C:/Users/Elizaveta/CLionProjects/OOP_lab1_draft/Log/Observers/FieldObserver.cpp
 CMakeFiles/OOP_lab1.dir/Log/Observers/FieldObserver.cpp.obj: CMakeFiles/OOP_lab1.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/OOP_lab1.dir/Log/Observers/FieldObserver.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OOP_lab1.dir/Log/Observers/FieldObserver.cpp.obj -MF CMakeFiles\OOP_lab1.dir\Log\Observers\FieldObserver.cpp.obj.d -o CMakeFiles\OOP_lab1.dir\Log\Observers\FieldObserver.cpp.obj -c C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\Log\Observers\FieldObserver.cpp
+	C:\Users\Elizaveta\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OOP_lab1.dir/Log/Observers/FieldObserver.cpp.obj -MF CMakeFiles\OOP_lab1.dir\Log\Observers\FieldObserver.cpp.obj.d -o CMakeFiles\OOP_lab1.dir\Log\Observers\FieldObserver.cpp.obj -c C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\Log\Observers\FieldObserver.cpp
 
 CMakeFiles/OOP_lab1.dir/Log/Observers/FieldObserver.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OOP_lab1.dir/Log/Observers/FieldObserver.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\Log\Observers\FieldObserver.cpp > CMakeFiles\OOP_lab1.dir\Log\Observers\FieldObserver.cpp.i
+	C:\Users\Elizaveta\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\Log\Observers\FieldObserver.cpp > CMakeFiles\OOP_lab1.dir\Log\Observers\FieldObserver.cpp.i
 
 CMakeFiles/OOP_lab1.dir/Log/Observers/FieldObserver.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OOP_lab1.dir/Log/Observers/FieldObserver.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\Log\Observers\FieldObserver.cpp -o CMakeFiles\OOP_lab1.dir\Log\Observers\FieldObserver.cpp.s
+	C:\Users\Elizaveta\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\Log\Observers\FieldObserver.cpp -o CMakeFiles\OOP_lab1.dir\Log\Observers\FieldObserver.cpp.s
 
 CMakeFiles/OOP_lab1.dir/Log/Observers/EventObserver.cpp.obj: CMakeFiles/OOP_lab1.dir/flags.make
+CMakeFiles/OOP_lab1.dir/Log/Observers/EventObserver.cpp.obj: CMakeFiles/OOP_lab1.dir/includes_CXX.rsp
 CMakeFiles/OOP_lab1.dir/Log/Observers/EventObserver.cpp.obj: C:/Users/Elizaveta/CLionProjects/OOP_lab1_draft/Log/Observers/EventObserver.cpp
 CMakeFiles/OOP_lab1.dir/Log/Observers/EventObserver.cpp.obj: CMakeFiles/OOP_lab1.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/OOP_lab1.dir/Log/Observers/EventObserver.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OOP_lab1.dir/Log/Observers/EventObserver.cpp.obj -MF CMakeFiles\OOP_lab1.dir\Log\Observers\EventObserver.cpp.obj.d -o CMakeFiles\OOP_lab1.dir\Log\Observers\EventObserver.cpp.obj -c C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\Log\Observers\EventObserver.cpp
+	C:\Users\Elizaveta\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OOP_lab1.dir/Log/Observers/EventObserver.cpp.obj -MF CMakeFiles\OOP_lab1.dir\Log\Observers\EventObserver.cpp.obj.d -o CMakeFiles\OOP_lab1.dir\Log\Observers\EventObserver.cpp.obj -c C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\Log\Observers\EventObserver.cpp
 
 CMakeFiles/OOP_lab1.dir/Log/Observers/EventObserver.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OOP_lab1.dir/Log/Observers/EventObserver.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\Log\Observers\EventObserver.cpp > CMakeFiles\OOP_lab1.dir\Log\Observers\EventObserver.cpp.i
+	C:\Users\Elizaveta\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\Log\Observers\EventObserver.cpp > CMakeFiles\OOP_lab1.dir\Log\Observers\EventObserver.cpp.i
 
 CMakeFiles/OOP_lab1.dir/Log/Observers/EventObserver.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OOP_lab1.dir/Log/Observers/EventObserver.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\Log\Observers\EventObserver.cpp -o CMakeFiles\OOP_lab1.dir\Log\Observers\EventObserver.cpp.s
+	C:\Users\Elizaveta\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\Log\Observers\EventObserver.cpp -o CMakeFiles\OOP_lab1.dir\Log\Observers\EventObserver.cpp.s
 
 CMakeFiles/OOP_lab1.dir/Log/Observers/PlayerObserver.cpp.obj: CMakeFiles/OOP_lab1.dir/flags.make
+CMakeFiles/OOP_lab1.dir/Log/Observers/PlayerObserver.cpp.obj: CMakeFiles/OOP_lab1.dir/includes_CXX.rsp
 CMakeFiles/OOP_lab1.dir/Log/Observers/PlayerObserver.cpp.obj: C:/Users/Elizaveta/CLionProjects/OOP_lab1_draft/Log/Observers/PlayerObserver.cpp
 CMakeFiles/OOP_lab1.dir/Log/Observers/PlayerObserver.cpp.obj: CMakeFiles/OOP_lab1.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/OOP_lab1.dir/Log/Observers/PlayerObserver.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OOP_lab1.dir/Log/Observers/PlayerObserver.cpp.obj -MF CMakeFiles\OOP_lab1.dir\Log\Observers\PlayerObserver.cpp.obj.d -o CMakeFiles\OOP_lab1.dir\Log\Observers\PlayerObserver.cpp.obj -c C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\Log\Observers\PlayerObserver.cpp
+	C:\Users\Elizaveta\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OOP_lab1.dir/Log/Observers/PlayerObserver.cpp.obj -MF CMakeFiles\OOP_lab1.dir\Log\Observers\PlayerObserver.cpp.obj.d -o CMakeFiles\OOP_lab1.dir\Log\Observers\PlayerObserver.cpp.obj -c C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\Log\Observers\PlayerObserver.cpp
 
 CMakeFiles/OOP_lab1.dir/Log/Observers/PlayerObserver.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OOP_lab1.dir/Log/Observers/PlayerObserver.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\Log\Observers\PlayerObserver.cpp > CMakeFiles\OOP_lab1.dir\Log\Observers\PlayerObserver.cpp.i
+	C:\Users\Elizaveta\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\Log\Observers\PlayerObserver.cpp > CMakeFiles\OOP_lab1.dir\Log\Observers\PlayerObserver.cpp.i
 
 CMakeFiles/OOP_lab1.dir/Log/Observers/PlayerObserver.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OOP_lab1.dir/Log/Observers/PlayerObserver.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\Log\Observers\PlayerObserver.cpp -o CMakeFiles\OOP_lab1.dir\Log\Observers\PlayerObserver.cpp.s
+	C:\Users\Elizaveta\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\Log\Observers\PlayerObserver.cpp -o CMakeFiles\OOP_lab1.dir\Log\Observers\PlayerObserver.cpp.s
 
 CMakeFiles/OOP_lab1.dir/Log/Log.cpp.obj: CMakeFiles/OOP_lab1.dir/flags.make
+CMakeFiles/OOP_lab1.dir/Log/Log.cpp.obj: CMakeFiles/OOP_lab1.dir/includes_CXX.rsp
 CMakeFiles/OOP_lab1.dir/Log/Log.cpp.obj: C:/Users/Elizaveta/CLionProjects/OOP_lab1_draft/Log/Log.cpp
 CMakeFiles/OOP_lab1.dir/Log/Log.cpp.obj: CMakeFiles/OOP_lab1.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/OOP_lab1.dir/Log/Log.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OOP_lab1.dir/Log/Log.cpp.obj -MF CMakeFiles\OOP_lab1.dir\Log\Log.cpp.obj.d -o CMakeFiles\OOP_lab1.dir\Log\Log.cpp.obj -c C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\Log\Log.cpp
+	C:\Users\Elizaveta\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OOP_lab1.dir/Log/Log.cpp.obj -MF CMakeFiles\OOP_lab1.dir\Log\Log.cpp.obj.d -o CMakeFiles\OOP_lab1.dir\Log\Log.cpp.obj -c C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\Log\Log.cpp
 
 CMakeFiles/OOP_lab1.dir/Log/Log.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OOP_lab1.dir/Log/Log.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\Log\Log.cpp > CMakeFiles\OOP_lab1.dir\Log\Log.cpp.i
+	C:\Users\Elizaveta\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\Log\Log.cpp > CMakeFiles\OOP_lab1.dir\Log\Log.cpp.i
 
 CMakeFiles/OOP_lab1.dir/Log/Log.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OOP_lab1.dir/Log/Log.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\Log\Log.cpp -o CMakeFiles\OOP_lab1.dir\Log\Log.cpp.s
+	C:\Users\Elizaveta\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\Log\Log.cpp -o CMakeFiles\OOP_lab1.dir\Log\Log.cpp.s
 
 CMakeFiles/OOP_lab1.dir/Log/FileLogger.cpp.obj: CMakeFiles/OOP_lab1.dir/flags.make
+CMakeFiles/OOP_lab1.dir/Log/FileLogger.cpp.obj: CMakeFiles/OOP_lab1.dir/includes_CXX.rsp
 CMakeFiles/OOP_lab1.dir/Log/FileLogger.cpp.obj: C:/Users/Elizaveta/CLionProjects/OOP_lab1_draft/Log/FileLogger.cpp
 CMakeFiles/OOP_lab1.dir/Log/FileLogger.cpp.obj: CMakeFiles/OOP_lab1.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/OOP_lab1.dir/Log/FileLogger.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OOP_lab1.dir/Log/FileLogger.cpp.obj -MF CMakeFiles\OOP_lab1.dir\Log\FileLogger.cpp.obj.d -o CMakeFiles\OOP_lab1.dir\Log\FileLogger.cpp.obj -c C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\Log\FileLogger.cpp
+	C:\Users\Elizaveta\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OOP_lab1.dir/Log/FileLogger.cpp.obj -MF CMakeFiles\OOP_lab1.dir\Log\FileLogger.cpp.obj.d -o CMakeFiles\OOP_lab1.dir\Log\FileLogger.cpp.obj -c C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\Log\FileLogger.cpp
 
 CMakeFiles/OOP_lab1.dir/Log/FileLogger.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OOP_lab1.dir/Log/FileLogger.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\Log\FileLogger.cpp > CMakeFiles\OOP_lab1.dir\Log\FileLogger.cpp.i
+	C:\Users\Elizaveta\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\Log\FileLogger.cpp > CMakeFiles\OOP_lab1.dir\Log\FileLogger.cpp.i
 
 CMakeFiles/OOP_lab1.dir/Log/FileLogger.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OOP_lab1.dir/Log/FileLogger.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\Log\FileLogger.cpp -o CMakeFiles\OOP_lab1.dir\Log\FileLogger.cpp.s
+	C:\Users\Elizaveta\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\Log\FileLogger.cpp -o CMakeFiles\OOP_lab1.dir\Log\FileLogger.cpp.s
 
 CMakeFiles/OOP_lab1.dir/Log/ConsoleLogger.cpp.obj: CMakeFiles/OOP_lab1.dir/flags.make
+CMakeFiles/OOP_lab1.dir/Log/ConsoleLogger.cpp.obj: CMakeFiles/OOP_lab1.dir/includes_CXX.rsp
 CMakeFiles/OOP_lab1.dir/Log/ConsoleLogger.cpp.obj: C:/Users/Elizaveta/CLionProjects/OOP_lab1_draft/Log/ConsoleLogger.cpp
 CMakeFiles/OOP_lab1.dir/Log/ConsoleLogger.cpp.obj: CMakeFiles/OOP_lab1.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/OOP_lab1.dir/Log/ConsoleLogger.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OOP_lab1.dir/Log/ConsoleLogger.cpp.obj -MF CMakeFiles\OOP_lab1.dir\Log\ConsoleLogger.cpp.obj.d -o CMakeFiles\OOP_lab1.dir\Log\ConsoleLogger.cpp.obj -c C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\Log\ConsoleLogger.cpp
+	C:\Users\Elizaveta\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OOP_lab1.dir/Log/ConsoleLogger.cpp.obj -MF CMakeFiles\OOP_lab1.dir\Log\ConsoleLogger.cpp.obj.d -o CMakeFiles\OOP_lab1.dir\Log\ConsoleLogger.cpp.obj -c C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\Log\ConsoleLogger.cpp
 
 CMakeFiles/OOP_lab1.dir/Log/ConsoleLogger.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OOP_lab1.dir/Log/ConsoleLogger.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\Log\ConsoleLogger.cpp > CMakeFiles\OOP_lab1.dir\Log\ConsoleLogger.cpp.i
+	C:\Users\Elizaveta\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\Log\ConsoleLogger.cpp > CMakeFiles\OOP_lab1.dir\Log\ConsoleLogger.cpp.i
 
 CMakeFiles/OOP_lab1.dir/Log/ConsoleLogger.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OOP_lab1.dir/Log/ConsoleLogger.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\Log\ConsoleLogger.cpp -o CMakeFiles\OOP_lab1.dir\Log\ConsoleLogger.cpp.s
+	C:\Users\Elizaveta\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\Log\ConsoleLogger.cpp -o CMakeFiles\OOP_lab1.dir\Log\ConsoleLogger.cpp.s
 
 CMakeFiles/OOP_lab1.dir/Log/Message.cpp.obj: CMakeFiles/OOP_lab1.dir/flags.make
+CMakeFiles/OOP_lab1.dir/Log/Message.cpp.obj: CMakeFiles/OOP_lab1.dir/includes_CXX.rsp
 CMakeFiles/OOP_lab1.dir/Log/Message.cpp.obj: C:/Users/Elizaveta/CLionProjects/OOP_lab1_draft/Log/Message.cpp
 CMakeFiles/OOP_lab1.dir/Log/Message.cpp.obj: CMakeFiles/OOP_lab1.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object CMakeFiles/OOP_lab1.dir/Log/Message.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OOP_lab1.dir/Log/Message.cpp.obj -MF CMakeFiles\OOP_lab1.dir\Log\Message.cpp.obj.d -o CMakeFiles\OOP_lab1.dir\Log\Message.cpp.obj -c C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\Log\Message.cpp
+	C:\Users\Elizaveta\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OOP_lab1.dir/Log/Message.cpp.obj -MF CMakeFiles\OOP_lab1.dir\Log\Message.cpp.obj.d -o CMakeFiles\OOP_lab1.dir\Log\Message.cpp.obj -c C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\Log\Message.cpp
 
 CMakeFiles/OOP_lab1.dir/Log/Message.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OOP_lab1.dir/Log/Message.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\Log\Message.cpp > CMakeFiles\OOP_lab1.dir\Log\Message.cpp.i
+	C:\Users\Elizaveta\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\Log\Message.cpp > CMakeFiles\OOP_lab1.dir\Log\Message.cpp.i
 
 CMakeFiles/OOP_lab1.dir/Log/Message.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OOP_lab1.dir/Log/Message.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\Log\Message.cpp -o CMakeFiles\OOP_lab1.dir\Log\Message.cpp.s
+	C:\Users\Elizaveta\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\Log\Message.cpp -o CMakeFiles\OOP_lab1.dir\Log\Message.cpp.s
 
 CMakeFiles/OOP_lab1.dir/Log/Observers/GameObserver.cpp.obj: CMakeFiles/OOP_lab1.dir/flags.make
+CMakeFiles/OOP_lab1.dir/Log/Observers/GameObserver.cpp.obj: CMakeFiles/OOP_lab1.dir/includes_CXX.rsp
 CMakeFiles/OOP_lab1.dir/Log/Observers/GameObserver.cpp.obj: C:/Users/Elizaveta/CLionProjects/OOP_lab1_draft/Log/Observers/GameObserver.cpp
 CMakeFiles/OOP_lab1.dir/Log/Observers/GameObserver.cpp.obj: CMakeFiles/OOP_lab1.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object CMakeFiles/OOP_lab1.dir/Log/Observers/GameObserver.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OOP_lab1.dir/Log/Observers/GameObserver.cpp.obj -MF CMakeFiles\OOP_lab1.dir\Log\Observers\GameObserver.cpp.obj.d -o CMakeFiles\OOP_lab1.dir\Log\Observers\GameObserver.cpp.obj -c C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\Log\Observers\GameObserver.cpp
+	C:\Users\Elizaveta\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OOP_lab1.dir/Log/Observers/GameObserver.cpp.obj -MF CMakeFiles\OOP_lab1.dir\Log\Observers\GameObserver.cpp.obj.d -o CMakeFiles\OOP_lab1.dir\Log\Observers\GameObserver.cpp.obj -c C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\Log\Observers\GameObserver.cpp
 
 CMakeFiles/OOP_lab1.dir/Log/Observers/GameObserver.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OOP_lab1.dir/Log/Observers/GameObserver.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\Log\Observers\GameObserver.cpp > CMakeFiles\OOP_lab1.dir\Log\Observers\GameObserver.cpp.i
+	C:\Users\Elizaveta\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\Log\Observers\GameObserver.cpp > CMakeFiles\OOP_lab1.dir\Log\Observers\GameObserver.cpp.i
 
 CMakeFiles/OOP_lab1.dir/Log/Observers/GameObserver.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OOP_lab1.dir/Log/Observers/GameObserver.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\Log\Observers\GameObserver.cpp -o CMakeFiles\OOP_lab1.dir\Log\Observers\GameObserver.cpp.s
+	C:\Users\Elizaveta\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\Log\Observers\GameObserver.cpp -o CMakeFiles\OOP_lab1.dir\Log\Observers\GameObserver.cpp.s
 
 CMakeFiles/OOP_lab1.dir/FileInputCommands.cpp.obj: CMakeFiles/OOP_lab1.dir/flags.make
+CMakeFiles/OOP_lab1.dir/FileInputCommands.cpp.obj: CMakeFiles/OOP_lab1.dir/includes_CXX.rsp
 CMakeFiles/OOP_lab1.dir/FileInputCommands.cpp.obj: C:/Users/Elizaveta/CLionProjects/OOP_lab1_draft/FileInputCommands.cpp
 CMakeFiles/OOP_lab1.dir/FileInputCommands.cpp.obj: CMakeFiles/OOP_lab1.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object CMakeFiles/OOP_lab1.dir/FileInputCommands.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OOP_lab1.dir/FileInputCommands.cpp.obj -MF CMakeFiles\OOP_lab1.dir\FileInputCommands.cpp.obj.d -o CMakeFiles\OOP_lab1.dir\FileInputCommands.cpp.obj -c C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\FileInputCommands.cpp
+	C:\Users\Elizaveta\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OOP_lab1.dir/FileInputCommands.cpp.obj -MF CMakeFiles\OOP_lab1.dir\FileInputCommands.cpp.obj.d -o CMakeFiles\OOP_lab1.dir\FileInputCommands.cpp.obj -c C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\FileInputCommands.cpp
 
 CMakeFiles/OOP_lab1.dir/FileInputCommands.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OOP_lab1.dir/FileInputCommands.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\FileInputCommands.cpp > CMakeFiles\OOP_lab1.dir\FileInputCommands.cpp.i
+	C:\Users\Elizaveta\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\FileInputCommands.cpp > CMakeFiles\OOP_lab1.dir\FileInputCommands.cpp.i
 
 CMakeFiles/OOP_lab1.dir/FileInputCommands.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OOP_lab1.dir/FileInputCommands.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\FileInputCommands.cpp -o CMakeFiles\OOP_lab1.dir\FileInputCommands.cpp.s
+	C:\Users\Elizaveta\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\FileInputCommands.cpp -o CMakeFiles\OOP_lab1.dir\FileInputCommands.cpp.s
 
 CMakeFiles/OOP_lab1.dir/Log/Observers/FileInputObserver.cpp.obj: CMakeFiles/OOP_lab1.dir/flags.make
+CMakeFiles/OOP_lab1.dir/Log/Observers/FileInputObserver.cpp.obj: CMakeFiles/OOP_lab1.dir/includes_CXX.rsp
 CMakeFiles/OOP_lab1.dir/Log/Observers/FileInputObserver.cpp.obj: C:/Users/Elizaveta/CLionProjects/OOP_lab1_draft/Log/Observers/FileInputObserver.cpp
 CMakeFiles/OOP_lab1.dir/Log/Observers/FileInputObserver.cpp.obj: CMakeFiles/OOP_lab1.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object CMakeFiles/OOP_lab1.dir/Log/Observers/FileInputObserver.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OOP_lab1.dir/Log/Observers/FileInputObserver.cpp.obj -MF CMakeFiles\OOP_lab1.dir\Log\Observers\FileInputObserver.cpp.obj.d -o CMakeFiles\OOP_lab1.dir\Log\Observers\FileInputObserver.cpp.obj -c C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\Log\Observers\FileInputObserver.cpp
+	C:\Users\Elizaveta\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OOP_lab1.dir/Log/Observers/FileInputObserver.cpp.obj -MF CMakeFiles\OOP_lab1.dir\Log\Observers\FileInputObserver.cpp.obj.d -o CMakeFiles\OOP_lab1.dir\Log\Observers\FileInputObserver.cpp.obj -c C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\Log\Observers\FileInputObserver.cpp
 
 CMakeFiles/OOP_lab1.dir/Log/Observers/FileInputObserver.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OOP_lab1.dir/Log/Observers/FileInputObserver.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\Log\Observers\FileInputObserver.cpp > CMakeFiles\OOP_lab1.dir\Log\Observers\FileInputObserver.cpp.i
+	C:\Users\Elizaveta\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\Log\Observers\FileInputObserver.cpp > CMakeFiles\OOP_lab1.dir\Log\Observers\FileInputObserver.cpp.i
 
 CMakeFiles/OOP_lab1.dir/Log/Observers/FileInputObserver.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OOP_lab1.dir/Log/Observers/FileInputObserver.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\Log\Observers\FileInputObserver.cpp -o CMakeFiles\OOP_lab1.dir\Log\Observers\FileInputObserver.cpp.s
+	C:\Users\Elizaveta\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\Log\Observers\FileInputObserver.cpp -o CMakeFiles\OOP_lab1.dir\Log\Observers\FileInputObserver.cpp.s
 
 CMakeFiles/OOP_lab1.dir/FieldGeneration/FieldGenerator.cpp.obj: CMakeFiles/OOP_lab1.dir/flags.make
+CMakeFiles/OOP_lab1.dir/FieldGeneration/FieldGenerator.cpp.obj: CMakeFiles/OOP_lab1.dir/includes_CXX.rsp
 CMakeFiles/OOP_lab1.dir/FieldGeneration/FieldGenerator.cpp.obj: C:/Users/Elizaveta/CLionProjects/OOP_lab1_draft/FieldGeneration/FieldGenerator.cpp
 CMakeFiles/OOP_lab1.dir/FieldGeneration/FieldGenerator.cpp.obj: CMakeFiles/OOP_lab1.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object CMakeFiles/OOP_lab1.dir/FieldGeneration/FieldGenerator.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OOP_lab1.dir/FieldGeneration/FieldGenerator.cpp.obj -MF CMakeFiles\OOP_lab1.dir\FieldGeneration\FieldGenerator.cpp.obj.d -o CMakeFiles\OOP_lab1.dir\FieldGeneration\FieldGenerator.cpp.obj -c C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\FieldGeneration\FieldGenerator.cpp
+	C:\Users\Elizaveta\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OOP_lab1.dir/FieldGeneration/FieldGenerator.cpp.obj -MF CMakeFiles\OOP_lab1.dir\FieldGeneration\FieldGenerator.cpp.obj.d -o CMakeFiles\OOP_lab1.dir\FieldGeneration\FieldGenerator.cpp.obj -c C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\FieldGeneration\FieldGenerator.cpp
 
 CMakeFiles/OOP_lab1.dir/FieldGeneration/FieldGenerator.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OOP_lab1.dir/FieldGeneration/FieldGenerator.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\FieldGeneration\FieldGenerator.cpp > CMakeFiles\OOP_lab1.dir\FieldGeneration\FieldGenerator.cpp.i
+	C:\Users\Elizaveta\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\FieldGeneration\FieldGenerator.cpp > CMakeFiles\OOP_lab1.dir\FieldGeneration\FieldGenerator.cpp.i
 
 CMakeFiles/OOP_lab1.dir/FieldGeneration/FieldGenerator.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OOP_lab1.dir/FieldGeneration/FieldGenerator.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\FieldGeneration\FieldGenerator.cpp -o CMakeFiles\OOP_lab1.dir\FieldGeneration\FieldGenerator.cpp.s
+	C:\Users\Elizaveta\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\FieldGeneration\FieldGenerator.cpp -o CMakeFiles\OOP_lab1.dir\FieldGeneration\FieldGenerator.cpp.s
 
 CMakeFiles/OOP_lab1.dir/FieldGeneration/MoneyRule.cpp.obj: CMakeFiles/OOP_lab1.dir/flags.make
+CMakeFiles/OOP_lab1.dir/FieldGeneration/MoneyRule.cpp.obj: CMakeFiles/OOP_lab1.dir/includes_CXX.rsp
 CMakeFiles/OOP_lab1.dir/FieldGeneration/MoneyRule.cpp.obj: C:/Users/Elizaveta/CLionProjects/OOP_lab1_draft/FieldGeneration/MoneyRule.cpp
 CMakeFiles/OOP_lab1.dir/FieldGeneration/MoneyRule.cpp.obj: CMakeFiles/OOP_lab1.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object CMakeFiles/OOP_lab1.dir/FieldGeneration/MoneyRule.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OOP_lab1.dir/FieldGeneration/MoneyRule.cpp.obj -MF CMakeFiles\OOP_lab1.dir\FieldGeneration\MoneyRule.cpp.obj.d -o CMakeFiles\OOP_lab1.dir\FieldGeneration\MoneyRule.cpp.obj -c C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\FieldGeneration\MoneyRule.cpp
+	C:\Users\Elizaveta\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OOP_lab1.dir/FieldGeneration/MoneyRule.cpp.obj -MF CMakeFiles\OOP_lab1.dir\FieldGeneration\MoneyRule.cpp.obj.d -o CMakeFiles\OOP_lab1.dir\FieldGeneration\MoneyRule.cpp.obj -c C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\FieldGeneration\MoneyRule.cpp
 
 CMakeFiles/OOP_lab1.dir/FieldGeneration/MoneyRule.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OOP_lab1.dir/FieldGeneration/MoneyRule.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\FieldGeneration\MoneyRule.cpp > CMakeFiles\OOP_lab1.dir\FieldGeneration\MoneyRule.cpp.i
+	C:\Users\Elizaveta\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\FieldGeneration\MoneyRule.cpp > CMakeFiles\OOP_lab1.dir\FieldGeneration\MoneyRule.cpp.i
 
 CMakeFiles/OOP_lab1.dir/FieldGeneration/MoneyRule.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OOP_lab1.dir/FieldGeneration/MoneyRule.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\FieldGeneration\MoneyRule.cpp -o CMakeFiles\OOP_lab1.dir\FieldGeneration\MoneyRule.cpp.s
+	C:\Users\Elizaveta\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\FieldGeneration\MoneyRule.cpp -o CMakeFiles\OOP_lab1.dir\FieldGeneration\MoneyRule.cpp.s
 
 CMakeFiles/OOP_lab1.dir/FieldGeneration/EnemyRule.cpp.obj: CMakeFiles/OOP_lab1.dir/flags.make
+CMakeFiles/OOP_lab1.dir/FieldGeneration/EnemyRule.cpp.obj: CMakeFiles/OOP_lab1.dir/includes_CXX.rsp
 CMakeFiles/OOP_lab1.dir/FieldGeneration/EnemyRule.cpp.obj: C:/Users/Elizaveta/CLionProjects/OOP_lab1_draft/FieldGeneration/EnemyRule.cpp
 CMakeFiles/OOP_lab1.dir/FieldGeneration/EnemyRule.cpp.obj: CMakeFiles/OOP_lab1.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object CMakeFiles/OOP_lab1.dir/FieldGeneration/EnemyRule.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OOP_lab1.dir/FieldGeneration/EnemyRule.cpp.obj -MF CMakeFiles\OOP_lab1.dir\FieldGeneration\EnemyRule.cpp.obj.d -o CMakeFiles\OOP_lab1.dir\FieldGeneration\EnemyRule.cpp.obj -c C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\FieldGeneration\EnemyRule.cpp
+	C:\Users\Elizaveta\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OOP_lab1.dir/FieldGeneration/EnemyRule.cpp.obj -MF CMakeFiles\OOP_lab1.dir\FieldGeneration\EnemyRule.cpp.obj.d -o CMakeFiles\OOP_lab1.dir\FieldGeneration\EnemyRule.cpp.obj -c C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\FieldGeneration\EnemyRule.cpp
 
 CMakeFiles/OOP_lab1.dir/FieldGeneration/EnemyRule.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OOP_lab1.dir/FieldGeneration/EnemyRule.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\FieldGeneration\EnemyRule.cpp > CMakeFiles\OOP_lab1.dir\FieldGeneration\EnemyRule.cpp.i
+	C:\Users\Elizaveta\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\FieldGeneration\EnemyRule.cpp > CMakeFiles\OOP_lab1.dir\FieldGeneration\EnemyRule.cpp.i
 
 CMakeFiles/OOP_lab1.dir/FieldGeneration/EnemyRule.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OOP_lab1.dir/FieldGeneration/EnemyRule.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\FieldGeneration\EnemyRule.cpp -o CMakeFiles\OOP_lab1.dir\FieldGeneration\EnemyRule.cpp.s
+	C:\Users\Elizaveta\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\FieldGeneration\EnemyRule.cpp -o CMakeFiles\OOP_lab1.dir\FieldGeneration\EnemyRule.cpp.s
 
 CMakeFiles/OOP_lab1.dir/FieldGeneration/TrapRule.cpp.obj: CMakeFiles/OOP_lab1.dir/flags.make
+CMakeFiles/OOP_lab1.dir/FieldGeneration/TrapRule.cpp.obj: CMakeFiles/OOP_lab1.dir/includes_CXX.rsp
 CMakeFiles/OOP_lab1.dir/FieldGeneration/TrapRule.cpp.obj: C:/Users/Elizaveta/CLionProjects/OOP_lab1_draft/FieldGeneration/TrapRule.cpp
 CMakeFiles/OOP_lab1.dir/FieldGeneration/TrapRule.cpp.obj: CMakeFiles/OOP_lab1.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object CMakeFiles/OOP_lab1.dir/FieldGeneration/TrapRule.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OOP_lab1.dir/FieldGeneration/TrapRule.cpp.obj -MF CMakeFiles\OOP_lab1.dir\FieldGeneration\TrapRule.cpp.obj.d -o CMakeFiles\OOP_lab1.dir\FieldGeneration\TrapRule.cpp.obj -c C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\FieldGeneration\TrapRule.cpp
+	C:\Users\Elizaveta\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OOP_lab1.dir/FieldGeneration/TrapRule.cpp.obj -MF CMakeFiles\OOP_lab1.dir\FieldGeneration\TrapRule.cpp.obj.d -o CMakeFiles\OOP_lab1.dir\FieldGeneration\TrapRule.cpp.obj -c C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\FieldGeneration\TrapRule.cpp
 
 CMakeFiles/OOP_lab1.dir/FieldGeneration/TrapRule.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OOP_lab1.dir/FieldGeneration/TrapRule.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\FieldGeneration\TrapRule.cpp > CMakeFiles\OOP_lab1.dir\FieldGeneration\TrapRule.cpp.i
+	C:\Users\Elizaveta\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\FieldGeneration\TrapRule.cpp > CMakeFiles\OOP_lab1.dir\FieldGeneration\TrapRule.cpp.i
 
 CMakeFiles/OOP_lab1.dir/FieldGeneration/TrapRule.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OOP_lab1.dir/FieldGeneration/TrapRule.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\FieldGeneration\TrapRule.cpp -o CMakeFiles\OOP_lab1.dir\FieldGeneration\TrapRule.cpp.s
+	C:\Users\Elizaveta\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\FieldGeneration\TrapRule.cpp -o CMakeFiles\OOP_lab1.dir\FieldGeneration\TrapRule.cpp.s
 
 CMakeFiles/OOP_lab1.dir/FieldGeneration/FoodRule.cpp.obj: CMakeFiles/OOP_lab1.dir/flags.make
+CMakeFiles/OOP_lab1.dir/FieldGeneration/FoodRule.cpp.obj: CMakeFiles/OOP_lab1.dir/includes_CXX.rsp
 CMakeFiles/OOP_lab1.dir/FieldGeneration/FoodRule.cpp.obj: C:/Users/Elizaveta/CLionProjects/OOP_lab1_draft/FieldGeneration/FoodRule.cpp
 CMakeFiles/OOP_lab1.dir/FieldGeneration/FoodRule.cpp.obj: CMakeFiles/OOP_lab1.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object CMakeFiles/OOP_lab1.dir/FieldGeneration/FoodRule.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OOP_lab1.dir/FieldGeneration/FoodRule.cpp.obj -MF CMakeFiles\OOP_lab1.dir\FieldGeneration\FoodRule.cpp.obj.d -o CMakeFiles\OOP_lab1.dir\FieldGeneration\FoodRule.cpp.obj -c C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\FieldGeneration\FoodRule.cpp
+	C:\Users\Elizaveta\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OOP_lab1.dir/FieldGeneration/FoodRule.cpp.obj -MF CMakeFiles\OOP_lab1.dir\FieldGeneration\FoodRule.cpp.obj.d -o CMakeFiles\OOP_lab1.dir\FieldGeneration\FoodRule.cpp.obj -c C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\FieldGeneration\FoodRule.cpp
 
 CMakeFiles/OOP_lab1.dir/FieldGeneration/FoodRule.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OOP_lab1.dir/FieldGeneration/FoodRule.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\FieldGeneration\FoodRule.cpp > CMakeFiles\OOP_lab1.dir\FieldGeneration\FoodRule.cpp.i
+	C:\Users\Elizaveta\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\FieldGeneration\FoodRule.cpp > CMakeFiles\OOP_lab1.dir\FieldGeneration\FoodRule.cpp.i
 
 CMakeFiles/OOP_lab1.dir/FieldGeneration/FoodRule.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OOP_lab1.dir/FieldGeneration/FoodRule.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\FieldGeneration\FoodRule.cpp -o CMakeFiles\OOP_lab1.dir\FieldGeneration\FoodRule.cpp.s
+	C:\Users\Elizaveta\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\FieldGeneration\FoodRule.cpp -o CMakeFiles\OOP_lab1.dir\FieldGeneration\FoodRule.cpp.s
 
 CMakeFiles/OOP_lab1.dir/FieldGeneration/BarrierRule.cpp.obj: CMakeFiles/OOP_lab1.dir/flags.make
+CMakeFiles/OOP_lab1.dir/FieldGeneration/BarrierRule.cpp.obj: CMakeFiles/OOP_lab1.dir/includes_CXX.rsp
 CMakeFiles/OOP_lab1.dir/FieldGeneration/BarrierRule.cpp.obj: C:/Users/Elizaveta/CLionProjects/OOP_lab1_draft/FieldGeneration/BarrierRule.cpp
 CMakeFiles/OOP_lab1.dir/FieldGeneration/BarrierRule.cpp.obj: CMakeFiles/OOP_lab1.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object CMakeFiles/OOP_lab1.dir/FieldGeneration/BarrierRule.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OOP_lab1.dir/FieldGeneration/BarrierRule.cpp.obj -MF CMakeFiles\OOP_lab1.dir\FieldGeneration\BarrierRule.cpp.obj.d -o CMakeFiles\OOP_lab1.dir\FieldGeneration\BarrierRule.cpp.obj -c C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\FieldGeneration\BarrierRule.cpp
+	C:\Users\Elizaveta\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OOP_lab1.dir/FieldGeneration/BarrierRule.cpp.obj -MF CMakeFiles\OOP_lab1.dir\FieldGeneration\BarrierRule.cpp.obj.d -o CMakeFiles\OOP_lab1.dir\FieldGeneration\BarrierRule.cpp.obj -c C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\FieldGeneration\BarrierRule.cpp
 
 CMakeFiles/OOP_lab1.dir/FieldGeneration/BarrierRule.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OOP_lab1.dir/FieldGeneration/BarrierRule.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\FieldGeneration\BarrierRule.cpp > CMakeFiles\OOP_lab1.dir\FieldGeneration\BarrierRule.cpp.i
+	C:\Users\Elizaveta\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\FieldGeneration\BarrierRule.cpp > CMakeFiles\OOP_lab1.dir\FieldGeneration\BarrierRule.cpp.i
 
 CMakeFiles/OOP_lab1.dir/FieldGeneration/BarrierRule.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OOP_lab1.dir/FieldGeneration/BarrierRule.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\FieldGeneration\BarrierRule.cpp -o CMakeFiles\OOP_lab1.dir\FieldGeneration\BarrierRule.cpp.s
+	C:\Users\Elizaveta\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\FieldGeneration\BarrierRule.cpp -o CMakeFiles\OOP_lab1.dir\FieldGeneration\BarrierRule.cpp.s
 
 CMakeFiles/OOP_lab1.dir/FieldGeneration/ExitPositionRule.cpp.obj: CMakeFiles/OOP_lab1.dir/flags.make
+CMakeFiles/OOP_lab1.dir/FieldGeneration/ExitPositionRule.cpp.obj: CMakeFiles/OOP_lab1.dir/includes_CXX.rsp
 CMakeFiles/OOP_lab1.dir/FieldGeneration/ExitPositionRule.cpp.obj: C:/Users/Elizaveta/CLionProjects/OOP_lab1_draft/FieldGeneration/ExitPositionRule.cpp
 CMakeFiles/OOP_lab1.dir/FieldGeneration/ExitPositionRule.cpp.obj: CMakeFiles/OOP_lab1.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building CXX object CMakeFiles/OOP_lab1.dir/FieldGeneration/ExitPositionRule.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OOP_lab1.dir/FieldGeneration/ExitPositionRule.cpp.obj -MF CMakeFiles\OOP_lab1.dir\FieldGeneration\ExitPositionRule.cpp.obj.d -o CMakeFiles\OOP_lab1.dir\FieldGeneration\ExitPositionRule.cpp.obj -c C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\FieldGeneration\ExitPositionRule.cpp
+	C:\Users\Elizaveta\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OOP_lab1.dir/FieldGeneration/ExitPositionRule.cpp.obj -MF CMakeFiles\OOP_lab1.dir\FieldGeneration\ExitPositionRule.cpp.obj.d -o CMakeFiles\OOP_lab1.dir\FieldGeneration\ExitPositionRule.cpp.obj -c C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\FieldGeneration\ExitPositionRule.cpp
 
 CMakeFiles/OOP_lab1.dir/FieldGeneration/ExitPositionRule.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OOP_lab1.dir/FieldGeneration/ExitPositionRule.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\FieldGeneration\ExitPositionRule.cpp > CMakeFiles\OOP_lab1.dir\FieldGeneration\ExitPositionRule.cpp.i
+	C:\Users\Elizaveta\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\FieldGeneration\ExitPositionRule.cpp > CMakeFiles\OOP_lab1.dir\FieldGeneration\ExitPositionRule.cpp.i
 
 CMakeFiles/OOP_lab1.dir/FieldGeneration/ExitPositionRule.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OOP_lab1.dir/FieldGeneration/ExitPositionRule.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\FieldGeneration\ExitPositionRule.cpp -o CMakeFiles\OOP_lab1.dir\FieldGeneration\ExitPositionRule.cpp.s
+	C:\Users\Elizaveta\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\FieldGeneration\ExitPositionRule.cpp -o CMakeFiles\OOP_lab1.dir\FieldGeneration\ExitPositionRule.cpp.s
 
 CMakeFiles/OOP_lab1.dir/FileInputExeption.cpp.obj: CMakeFiles/OOP_lab1.dir/flags.make
+CMakeFiles/OOP_lab1.dir/FileInputExeption.cpp.obj: CMakeFiles/OOP_lab1.dir/includes_CXX.rsp
 CMakeFiles/OOP_lab1.dir/FileInputExeption.cpp.obj: C:/Users/Elizaveta/CLionProjects/OOP_lab1_draft/FileInputExeption.cpp
 CMakeFiles/OOP_lab1.dir/FileInputExeption.cpp.obj: CMakeFiles/OOP_lab1.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building CXX object CMakeFiles/OOP_lab1.dir/FileInputExeption.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OOP_lab1.dir/FileInputExeption.cpp.obj -MF CMakeFiles\OOP_lab1.dir\FileInputExeption.cpp.obj.d -o CMakeFiles\OOP_lab1.dir\FileInputExeption.cpp.obj -c C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\FileInputExeption.cpp
+	C:\Users\Elizaveta\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OOP_lab1.dir/FileInputExeption.cpp.obj -MF CMakeFiles\OOP_lab1.dir\FileInputExeption.cpp.obj.d -o CMakeFiles\OOP_lab1.dir\FileInputExeption.cpp.obj -c C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\FileInputExeption.cpp
 
 CMakeFiles/OOP_lab1.dir/FileInputExeption.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OOP_lab1.dir/FileInputExeption.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\FileInputExeption.cpp > CMakeFiles\OOP_lab1.dir\FileInputExeption.cpp.i
+	C:\Users\Elizaveta\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\FileInputExeption.cpp > CMakeFiles\OOP_lab1.dir\FileInputExeption.cpp.i
 
 CMakeFiles/OOP_lab1.dir/FileInputExeption.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OOP_lab1.dir/FileInputExeption.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\FileInputExeption.cpp -o CMakeFiles\OOP_lab1.dir\FileInputExeption.cpp.s
+	C:\Users\Elizaveta\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\FileInputExeption.cpp -o CMakeFiles\OOP_lab1.dir\FileInputExeption.cpp.s
 
 CMakeFiles/OOP_lab1.dir/InputDataExeption.cpp.obj: CMakeFiles/OOP_lab1.dir/flags.make
+CMakeFiles/OOP_lab1.dir/InputDataExeption.cpp.obj: CMakeFiles/OOP_lab1.dir/includes_CXX.rsp
 CMakeFiles/OOP_lab1.dir/InputDataExeption.cpp.obj: C:/Users/Elizaveta/CLionProjects/OOP_lab1_draft/InputDataExeption.cpp
 CMakeFiles/OOP_lab1.dir/InputDataExeption.cpp.obj: CMakeFiles/OOP_lab1.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building CXX object CMakeFiles/OOP_lab1.dir/InputDataExeption.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OOP_lab1.dir/InputDataExeption.cpp.obj -MF CMakeFiles\OOP_lab1.dir\InputDataExeption.cpp.obj.d -o CMakeFiles\OOP_lab1.dir\InputDataExeption.cpp.obj -c C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\InputDataExeption.cpp
+	C:\Users\Elizaveta\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OOP_lab1.dir/InputDataExeption.cpp.obj -MF CMakeFiles\OOP_lab1.dir\InputDataExeption.cpp.obj.d -o CMakeFiles\OOP_lab1.dir\InputDataExeption.cpp.obj -c C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\InputDataExeption.cpp
 
 CMakeFiles/OOP_lab1.dir/InputDataExeption.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OOP_lab1.dir/InputDataExeption.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\InputDataExeption.cpp > CMakeFiles\OOP_lab1.dir\InputDataExeption.cpp.i
+	C:\Users\Elizaveta\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\InputDataExeption.cpp > CMakeFiles\OOP_lab1.dir\InputDataExeption.cpp.i
 
 CMakeFiles/OOP_lab1.dir/InputDataExeption.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OOP_lab1.dir/InputDataExeption.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\InputDataExeption.cpp -o CMakeFiles\OOP_lab1.dir\InputDataExeption.cpp.s
+	C:\Users\Elizaveta\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\InputDataExeption.cpp -o CMakeFiles\OOP_lab1.dir\InputDataExeption.cpp.s
 
 # Object files for target OOP_lab1
 OOP_lab1_OBJECTS = \
@@ -715,6 +755,10 @@ OOP_lab1.exe: CMakeFiles/OOP_lab1.dir/FieldGeneration/ExitPositionRule.cpp.obj
 OOP_lab1.exe: CMakeFiles/OOP_lab1.dir/FileInputExeption.cpp.obj
 OOP_lab1.exe: CMakeFiles/OOP_lab1.dir/InputDataExeption.cpp.obj
 OOP_lab1.exe: CMakeFiles/OOP_lab1.dir/build.make
+OOP_lab1.exe: C:/sfml/SFML-2.5.1/lib/libsfml-graphics-s-d.a
+OOP_lab1.exe: C:/sfml/SFML-2.5.1/lib/libsfml-window-s-d.a
+OOP_lab1.exe: C:/sfml/SFML-2.5.1/lib/libsfml-system-s-d.a
+OOP_lab1.exe: C:/sfml/SFML-2.5.1/lib/libfreetype.a
 OOP_lab1.exe: CMakeFiles/OOP_lab1.dir/linklibs.rsp
 OOP_lab1.exe: CMakeFiles/OOP_lab1.dir/objects1.rsp
 OOP_lab1.exe: CMakeFiles/OOP_lab1.dir/link.txt
