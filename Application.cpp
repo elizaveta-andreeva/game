@@ -1,4 +1,3 @@
-
 #include "Application.h"
 
 #include <utility>
@@ -7,17 +6,17 @@
 void Application::start() {
     Controller controller;
     IReader *reader = new ConsoleCommandReader;
-    int user_command = controller.getCommand(reader);
-    if (user_command == 2) {
-        Application::load();
-        delete reader;
-        return;
-    }
-    if (user_command == 3) {
-        Application::exit();
-        delete reader;
-        return;
-    }
+//    int user_command = controller.getCommand(reader);
+//    if (user_command == 2) {
+//        Application::load();
+//        delete reader;
+//        return;
+//    }
+//    if (user_command == 3) {
+//        Application::exit();
+//        delete reader;
+//        return;
+//    }
 
     bool is_file_logger = controller.isFileLogger(reader);
     bool is_console_logger = controller.isConsoleLogger(reader);
@@ -33,7 +32,7 @@ void Application::start() {
     }
     Log *log = new Log{is_trace_level, is_info_level, is_error_level, is_file_logger, is_console_logger};
 
-    controller.printUserInfo();
+//    controller.printUserInfo();
 
     game_observer->gameStarted(*log);
 
@@ -68,21 +67,16 @@ void Application::start() {
         player.setPointsToWin(200);
     player.setObserver(*log);
 
-    this->initWindow();
-//    print_field.print(*field);
+    this->initWindow(field->getHeight(), field->getWidth());
 
+    Direction direction;
 
     controller.printPlayerInfo(player);
-    ;
     while (game and window->isOpen()) {
         while (window->pollEvent(ev)) {
-            controller.getAction(game, player, field, reader, file_input, log, game_observer, this->window, this->ev);
-//        print_field.print(*field);
-//        controller.printPlayerInfo(player);
-//            field_shape.setPosition(sf::Vector2f(field->getActiveCellX() * 15, field->getActiveCellY() * 15));
+            direction = controller.makeAction(game, player, field, reader, file_input, log, game_observer, this->window, this->ev);
             window->clear();
-//            window->draw(field_shape);
-            print_field.print(*field, *this->window);
+            print_field.print(*field, this->window, direction);
             window->display();
         }
     }
@@ -136,7 +130,7 @@ void Application::load() {
 //
 //    controller.printPlayerInfo(player);
 //    while (game) {
-//        controller.getAction(game, player, field, reader, file_input, log, game_observer);
+//        controller.makeAction(game, player, field, reader, file_input, log, game_observer);
 //        print_field.print(*field);
 //        controller.printPlayerInfo(player);
 //    }
@@ -151,9 +145,9 @@ void Application::exit() {
 
 }
 
-void Application::initWindow() {
-    this->videoMode.height = 600;
-    this->videoMode.width = 800;
+void Application::initWindow(int field_height, int field_width) {
+    this->videoMode.height = 80 * field_height;
+    this->videoMode.width = 80 * field_width;
 
     this->window = new sf::RenderWindow(this->videoMode, "Game", sf::Style::Titlebar | sf::Style::Close);
 

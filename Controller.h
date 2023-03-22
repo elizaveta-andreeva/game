@@ -63,8 +63,8 @@ public:
     bool getIsFileValid();
     void load(Player &player, Field *&field, Log *&log, IGameObserver *game_observer);
 
-    void getAction(bool &game, Player &player, Field *&field, IReader *reader, InputCommands *file_input, Log *&log,
-                   IGameObserver *game_observer, sf::RenderWindow* window, sf::Event ev);
+    Direction makeAction(bool &game, Player &player, Field *&field, IReader *reader, InputCommands *file_input, Log *&log,
+                    IGameObserver *game_observer, sf::RenderWindow* window, sf::Event ev);
     void printPlayerInfo(Player &player);
     void printUserInfo();
     int getCommand(IReader *reader);

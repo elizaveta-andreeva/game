@@ -668,6 +668,126 @@ CMakeFiles/OOP_lab1.dir/InputDataExeption.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OOP_lab1.dir/InputDataExeption.cpp.s"
 	C:\Users\Elizaveta\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\InputDataExeption.cpp -o CMakeFiles\OOP_lab1.dir\InputDataExeption.cpp.s
 
+CMakeFiles/OOP_lab1.dir/View/MapWidget.cpp.obj: CMakeFiles/OOP_lab1.dir/flags.make
+CMakeFiles/OOP_lab1.dir/View/MapWidget.cpp.obj: CMakeFiles/OOP_lab1.dir/includes_CXX.rsp
+CMakeFiles/OOP_lab1.dir/View/MapWidget.cpp.obj: C:/Users/Elizaveta/CLionProjects/OOP_lab1_draft/View/MapWidget.cpp
+CMakeFiles/OOP_lab1.dir/View/MapWidget.cpp.obj: CMakeFiles/OOP_lab1.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building CXX object CMakeFiles/OOP_lab1.dir/View/MapWidget.cpp.obj"
+	C:\Users\Elizaveta\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OOP_lab1.dir/View/MapWidget.cpp.obj -MF CMakeFiles\OOP_lab1.dir\View\MapWidget.cpp.obj.d -o CMakeFiles\OOP_lab1.dir\View\MapWidget.cpp.obj -c C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\View\MapWidget.cpp
+
+CMakeFiles/OOP_lab1.dir/View/MapWidget.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OOP_lab1.dir/View/MapWidget.cpp.i"
+	C:\Users\Elizaveta\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\View\MapWidget.cpp > CMakeFiles\OOP_lab1.dir\View\MapWidget.cpp.i
+
+CMakeFiles/OOP_lab1.dir/View/MapWidget.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OOP_lab1.dir/View/MapWidget.cpp.s"
+	C:\Users\Elizaveta\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\View\MapWidget.cpp -o CMakeFiles\OOP_lab1.dir\View\MapWidget.cpp.s
+
+CMakeFiles/OOP_lab1.dir/View/Coin.cpp.obj: CMakeFiles/OOP_lab1.dir/flags.make
+CMakeFiles/OOP_lab1.dir/View/Coin.cpp.obj: CMakeFiles/OOP_lab1.dir/includes_CXX.rsp
+CMakeFiles/OOP_lab1.dir/View/Coin.cpp.obj: C:/Users/Elizaveta/CLionProjects/OOP_lab1_draft/View/Coin.cpp
+CMakeFiles/OOP_lab1.dir/View/Coin.cpp.obj: CMakeFiles/OOP_lab1.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building CXX object CMakeFiles/OOP_lab1.dir/View/Coin.cpp.obj"
+	C:\Users\Elizaveta\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OOP_lab1.dir/View/Coin.cpp.obj -MF CMakeFiles\OOP_lab1.dir\View\Coin.cpp.obj.d -o CMakeFiles\OOP_lab1.dir\View\Coin.cpp.obj -c C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\View\Coin.cpp
+
+CMakeFiles/OOP_lab1.dir/View/Coin.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OOP_lab1.dir/View/Coin.cpp.i"
+	C:\Users\Elizaveta\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\View\Coin.cpp > CMakeFiles\OOP_lab1.dir\View\Coin.cpp.i
+
+CMakeFiles/OOP_lab1.dir/View/Coin.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OOP_lab1.dir/View/Coin.cpp.s"
+	C:\Users\Elizaveta\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\View\Coin.cpp -o CMakeFiles\OOP_lab1.dir\View\Coin.cpp.s
+
+CMakeFiles/OOP_lab1.dir/View/Door.cpp.obj: CMakeFiles/OOP_lab1.dir/flags.make
+CMakeFiles/OOP_lab1.dir/View/Door.cpp.obj: CMakeFiles/OOP_lab1.dir/includes_CXX.rsp
+CMakeFiles/OOP_lab1.dir/View/Door.cpp.obj: C:/Users/Elizaveta/CLionProjects/OOP_lab1_draft/View/Door.cpp
+CMakeFiles/OOP_lab1.dir/View/Door.cpp.obj: CMakeFiles/OOP_lab1.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building CXX object CMakeFiles/OOP_lab1.dir/View/Door.cpp.obj"
+	C:\Users\Elizaveta\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OOP_lab1.dir/View/Door.cpp.obj -MF CMakeFiles\OOP_lab1.dir\View\Door.cpp.obj.d -o CMakeFiles\OOP_lab1.dir\View\Door.cpp.obj -c C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\View\Door.cpp
+
+CMakeFiles/OOP_lab1.dir/View/Door.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OOP_lab1.dir/View/Door.cpp.i"
+	C:\Users\Elizaveta\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\View\Door.cpp > CMakeFiles\OOP_lab1.dir\View\Door.cpp.i
+
+CMakeFiles/OOP_lab1.dir/View/Door.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OOP_lab1.dir/View/Door.cpp.s"
+	C:\Users\Elizaveta\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\View\Door.cpp -o CMakeFiles\OOP_lab1.dir\View\Door.cpp.s
+
+CMakeFiles/OOP_lab1.dir/View/Apple.cpp.obj: CMakeFiles/OOP_lab1.dir/flags.make
+CMakeFiles/OOP_lab1.dir/View/Apple.cpp.obj: CMakeFiles/OOP_lab1.dir/includes_CXX.rsp
+CMakeFiles/OOP_lab1.dir/View/Apple.cpp.obj: C:/Users/Elizaveta/CLionProjects/OOP_lab1_draft/View/Apple.cpp
+CMakeFiles/OOP_lab1.dir/View/Apple.cpp.obj: CMakeFiles/OOP_lab1.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building CXX object CMakeFiles/OOP_lab1.dir/View/Apple.cpp.obj"
+	C:\Users\Elizaveta\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OOP_lab1.dir/View/Apple.cpp.obj -MF CMakeFiles\OOP_lab1.dir\View\Apple.cpp.obj.d -o CMakeFiles\OOP_lab1.dir\View\Apple.cpp.obj -c C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\View\Apple.cpp
+
+CMakeFiles/OOP_lab1.dir/View/Apple.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OOP_lab1.dir/View/Apple.cpp.i"
+	C:\Users\Elizaveta\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\View\Apple.cpp > CMakeFiles\OOP_lab1.dir\View\Apple.cpp.i
+
+CMakeFiles/OOP_lab1.dir/View/Apple.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OOP_lab1.dir/View/Apple.cpp.s"
+	C:\Users\Elizaveta\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\View\Apple.cpp -o CMakeFiles\OOP_lab1.dir\View\Apple.cpp.s
+
+CMakeFiles/OOP_lab1.dir/View/SpikeTrap.cpp.obj: CMakeFiles/OOP_lab1.dir/flags.make
+CMakeFiles/OOP_lab1.dir/View/SpikeTrap.cpp.obj: CMakeFiles/OOP_lab1.dir/includes_CXX.rsp
+CMakeFiles/OOP_lab1.dir/View/SpikeTrap.cpp.obj: C:/Users/Elizaveta/CLionProjects/OOP_lab1_draft/View/SpikeTrap.cpp
+CMakeFiles/OOP_lab1.dir/View/SpikeTrap.cpp.obj: CMakeFiles/OOP_lab1.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building CXX object CMakeFiles/OOP_lab1.dir/View/SpikeTrap.cpp.obj"
+	C:\Users\Elizaveta\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OOP_lab1.dir/View/SpikeTrap.cpp.obj -MF CMakeFiles\OOP_lab1.dir\View\SpikeTrap.cpp.obj.d -o CMakeFiles\OOP_lab1.dir\View\SpikeTrap.cpp.obj -c C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\View\SpikeTrap.cpp
+
+CMakeFiles/OOP_lab1.dir/View/SpikeTrap.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OOP_lab1.dir/View/SpikeTrap.cpp.i"
+	C:\Users\Elizaveta\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\View\SpikeTrap.cpp > CMakeFiles\OOP_lab1.dir\View\SpikeTrap.cpp.i
+
+CMakeFiles/OOP_lab1.dir/View/SpikeTrap.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OOP_lab1.dir/View/SpikeTrap.cpp.s"
+	C:\Users\Elizaveta\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\View\SpikeTrap.cpp -o CMakeFiles\OOP_lab1.dir\View\SpikeTrap.cpp.s
+
+CMakeFiles/OOP_lab1.dir/View/Monster.cpp.obj: CMakeFiles/OOP_lab1.dir/flags.make
+CMakeFiles/OOP_lab1.dir/View/Monster.cpp.obj: CMakeFiles/OOP_lab1.dir/includes_CXX.rsp
+CMakeFiles/OOP_lab1.dir/View/Monster.cpp.obj: C:/Users/Elizaveta/CLionProjects/OOP_lab1_draft/View/Monster.cpp
+CMakeFiles/OOP_lab1.dir/View/Monster.cpp.obj: CMakeFiles/OOP_lab1.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building CXX object CMakeFiles/OOP_lab1.dir/View/Monster.cpp.obj"
+	C:\Users\Elizaveta\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OOP_lab1.dir/View/Monster.cpp.obj -MF CMakeFiles\OOP_lab1.dir\View\Monster.cpp.obj.d -o CMakeFiles\OOP_lab1.dir\View\Monster.cpp.obj -c C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\View\Monster.cpp
+
+CMakeFiles/OOP_lab1.dir/View/Monster.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OOP_lab1.dir/View/Monster.cpp.i"
+	C:\Users\Elizaveta\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\View\Monster.cpp > CMakeFiles\OOP_lab1.dir\View\Monster.cpp.i
+
+CMakeFiles/OOP_lab1.dir/View/Monster.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OOP_lab1.dir/View/Monster.cpp.s"
+	C:\Users\Elizaveta\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\View\Monster.cpp -o CMakeFiles\OOP_lab1.dir\View\Monster.cpp.s
+
+CMakeFiles/OOP_lab1.dir/View/Hero.cpp.obj: CMakeFiles/OOP_lab1.dir/flags.make
+CMakeFiles/OOP_lab1.dir/View/Hero.cpp.obj: CMakeFiles/OOP_lab1.dir/includes_CXX.rsp
+CMakeFiles/OOP_lab1.dir/View/Hero.cpp.obj: C:/Users/Elizaveta/CLionProjects/OOP_lab1_draft/View/Hero.cpp
+CMakeFiles/OOP_lab1.dir/View/Hero.cpp.obj: CMakeFiles/OOP_lab1.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building CXX object CMakeFiles/OOP_lab1.dir/View/Hero.cpp.obj"
+	C:\Users\Elizaveta\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OOP_lab1.dir/View/Hero.cpp.obj -MF CMakeFiles\OOP_lab1.dir\View\Hero.cpp.obj.d -o CMakeFiles\OOP_lab1.dir\View\Hero.cpp.obj -c C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\View\Hero.cpp
+
+CMakeFiles/OOP_lab1.dir/View/Hero.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OOP_lab1.dir/View/Hero.cpp.i"
+	C:\Users\Elizaveta\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\View\Hero.cpp > CMakeFiles\OOP_lab1.dir\View\Hero.cpp.i
+
+CMakeFiles/OOP_lab1.dir/View/Hero.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OOP_lab1.dir/View/Hero.cpp.s"
+	C:\Users\Elizaveta\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\View\Hero.cpp -o CMakeFiles\OOP_lab1.dir\View\Hero.cpp.s
+
+CMakeFiles/OOP_lab1.dir/View/Tree.cpp.obj: CMakeFiles/OOP_lab1.dir/flags.make
+CMakeFiles/OOP_lab1.dir/View/Tree.cpp.obj: CMakeFiles/OOP_lab1.dir/includes_CXX.rsp
+CMakeFiles/OOP_lab1.dir/View/Tree.cpp.obj: C:/Users/Elizaveta/CLionProjects/OOP_lab1_draft/View/Tree.cpp
+CMakeFiles/OOP_lab1.dir/View/Tree.cpp.obj: CMakeFiles/OOP_lab1.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building CXX object CMakeFiles/OOP_lab1.dir/View/Tree.cpp.obj"
+	C:\Users\Elizaveta\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OOP_lab1.dir/View/Tree.cpp.obj -MF CMakeFiles\OOP_lab1.dir\View\Tree.cpp.obj.d -o CMakeFiles\OOP_lab1.dir\View\Tree.cpp.obj -c C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\View\Tree.cpp
+
+CMakeFiles/OOP_lab1.dir/View/Tree.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OOP_lab1.dir/View/Tree.cpp.i"
+	C:\Users\Elizaveta\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\View\Tree.cpp > CMakeFiles\OOP_lab1.dir\View\Tree.cpp.i
+
+CMakeFiles/OOP_lab1.dir/View/Tree.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OOP_lab1.dir/View/Tree.cpp.s"
+	C:\Users\Elizaveta\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\View\Tree.cpp -o CMakeFiles\OOP_lab1.dir\View\Tree.cpp.s
+
 # Object files for target OOP_lab1
 OOP_lab1_OBJECTS = \
 "CMakeFiles/OOP_lab1.dir/main.cpp.obj" \
@@ -709,7 +829,15 @@ OOP_lab1_OBJECTS = \
 "CMakeFiles/OOP_lab1.dir/FieldGeneration/BarrierRule.cpp.obj" \
 "CMakeFiles/OOP_lab1.dir/FieldGeneration/ExitPositionRule.cpp.obj" \
 "CMakeFiles/OOP_lab1.dir/FileInputExeption.cpp.obj" \
-"CMakeFiles/OOP_lab1.dir/InputDataExeption.cpp.obj"
+"CMakeFiles/OOP_lab1.dir/InputDataExeption.cpp.obj" \
+"CMakeFiles/OOP_lab1.dir/View/MapWidget.cpp.obj" \
+"CMakeFiles/OOP_lab1.dir/View/Coin.cpp.obj" \
+"CMakeFiles/OOP_lab1.dir/View/Door.cpp.obj" \
+"CMakeFiles/OOP_lab1.dir/View/Apple.cpp.obj" \
+"CMakeFiles/OOP_lab1.dir/View/SpikeTrap.cpp.obj" \
+"CMakeFiles/OOP_lab1.dir/View/Monster.cpp.obj" \
+"CMakeFiles/OOP_lab1.dir/View/Hero.cpp.obj" \
+"CMakeFiles/OOP_lab1.dir/View/Tree.cpp.obj"
 
 # External object files for target OOP_lab1
 OOP_lab1_EXTERNAL_OBJECTS =
@@ -754,6 +882,14 @@ OOP_lab1.exe: CMakeFiles/OOP_lab1.dir/FieldGeneration/BarrierRule.cpp.obj
 OOP_lab1.exe: CMakeFiles/OOP_lab1.dir/FieldGeneration/ExitPositionRule.cpp.obj
 OOP_lab1.exe: CMakeFiles/OOP_lab1.dir/FileInputExeption.cpp.obj
 OOP_lab1.exe: CMakeFiles/OOP_lab1.dir/InputDataExeption.cpp.obj
+OOP_lab1.exe: CMakeFiles/OOP_lab1.dir/View/MapWidget.cpp.obj
+OOP_lab1.exe: CMakeFiles/OOP_lab1.dir/View/Coin.cpp.obj
+OOP_lab1.exe: CMakeFiles/OOP_lab1.dir/View/Door.cpp.obj
+OOP_lab1.exe: CMakeFiles/OOP_lab1.dir/View/Apple.cpp.obj
+OOP_lab1.exe: CMakeFiles/OOP_lab1.dir/View/SpikeTrap.cpp.obj
+OOP_lab1.exe: CMakeFiles/OOP_lab1.dir/View/Monster.cpp.obj
+OOP_lab1.exe: CMakeFiles/OOP_lab1.dir/View/Hero.cpp.obj
+OOP_lab1.exe: CMakeFiles/OOP_lab1.dir/View/Tree.cpp.obj
 OOP_lab1.exe: CMakeFiles/OOP_lab1.dir/build.make
 OOP_lab1.exe: C:/sfml/SFML-2.5.1/lib/libsfml-graphics-s-d.a
 OOP_lab1.exe: C:/sfml/SFML-2.5.1/lib/libsfml-window-s-d.a
@@ -762,7 +898,7 @@ OOP_lab1.exe: C:/sfml/SFML-2.5.1/lib/libfreetype.a
 OOP_lab1.exe: CMakeFiles/OOP_lab1.dir/linklibs.rsp
 OOP_lab1.exe: CMakeFiles/OOP_lab1.dir/objects1.rsp
 OOP_lab1.exe: CMakeFiles/OOP_lab1.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Linking CXX executable OOP_lab1.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Elizaveta\CLionProjects\OOP_lab1_draft\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Linking CXX executable OOP_lab1.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\OOP_lab1.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

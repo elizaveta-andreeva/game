@@ -347,6 +347,42 @@
 		<Unit filename="C:/Users/Elizaveta/CLionProjects/OOP_lab1_draft/Readers/IReader.h">
 			<Option target="OOP_lab1"/>
 		</Unit>
+		<Unit filename="C:/Users/Elizaveta/CLionProjects/OOP_lab1_draft/View/Apple.cpp">
+			<Option target="OOP_lab1"/>
+		</Unit>
+		<Unit filename="C:/Users/Elizaveta/CLionProjects/OOP_lab1_draft/View/Apple.h">
+			<Option target="OOP_lab1"/>
+		</Unit>
+		<Unit filename="C:/Users/Elizaveta/CLionProjects/OOP_lab1_draft/View/Coin.cpp">
+			<Option target="OOP_lab1"/>
+		</Unit>
+		<Unit filename="C:/Users/Elizaveta/CLionProjects/OOP_lab1_draft/View/Coin.h">
+			<Option target="OOP_lab1"/>
+		</Unit>
+		<Unit filename="C:/Users/Elizaveta/CLionProjects/OOP_lab1_draft/View/Door.cpp">
+			<Option target="OOP_lab1"/>
+		</Unit>
+		<Unit filename="C:/Users/Elizaveta/CLionProjects/OOP_lab1_draft/View/Door.h">
+			<Option target="OOP_lab1"/>
+		</Unit>
+		<Unit filename="C:/Users/Elizaveta/CLionProjects/OOP_lab1_draft/View/Hero.cpp">
+			<Option target="OOP_lab1"/>
+		</Unit>
+		<Unit filename="C:/Users/Elizaveta/CLionProjects/OOP_lab1_draft/View/Hero.h">
+			<Option target="OOP_lab1"/>
+		</Unit>
+		<Unit filename="C:/Users/Elizaveta/CLionProjects/OOP_lab1_draft/View/MapWidget.cpp">
+			<Option target="OOP_lab1"/>
+		</Unit>
+		<Unit filename="C:/Users/Elizaveta/CLionProjects/OOP_lab1_draft/View/MapWidget.h">
+			<Option target="OOP_lab1"/>
+		</Unit>
+		<Unit filename="C:/Users/Elizaveta/CLionProjects/OOP_lab1_draft/View/Monster.cpp">
+			<Option target="OOP_lab1"/>
+		</Unit>
+		<Unit filename="C:/Users/Elizaveta/CLionProjects/OOP_lab1_draft/View/Monster.h">
+			<Option target="OOP_lab1"/>
+		</Unit>
 		<Unit filename="C:/Users/Elizaveta/CLionProjects/OOP_lab1_draft/View/PrintCell.cpp">
 			<Option target="OOP_lab1"/>
 		</Unit>
@@ -357,6 +393,18 @@
 			<Option target="OOP_lab1"/>
 		</Unit>
 		<Unit filename="C:/Users/Elizaveta/CLionProjects/OOP_lab1_draft/View/PrintField.h">
+			<Option target="OOP_lab1"/>
+		</Unit>
+		<Unit filename="C:/Users/Elizaveta/CLionProjects/OOP_lab1_draft/View/SpikeTrap.cpp">
+			<Option target="OOP_lab1"/>
+		</Unit>
+		<Unit filename="C:/Users/Elizaveta/CLionProjects/OOP_lab1_draft/View/SpikeTrap.h">
+			<Option target="OOP_lab1"/>
+		</Unit>
+		<Unit filename="C:/Users/Elizaveta/CLionProjects/OOP_lab1_draft/View/Tree.cpp">
+			<Option target="OOP_lab1"/>
+		</Unit>
+		<Unit filename="C:/Users/Elizaveta/CLionProjects/OOP_lab1_draft/View/Tree.h">
 			<Option target="OOP_lab1"/>
 		</Unit>
 		<Unit filename="C:/Users/Elizaveta/CLionProjects/OOP_lab1_draft/main.cpp">

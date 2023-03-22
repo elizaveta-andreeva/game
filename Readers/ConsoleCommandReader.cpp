@@ -48,47 +48,47 @@ int ConsoleCommandReader::getLevel() {
 }
 
 bool ConsoleCommandReader::getIsFileLogger() {
-    std::cout << "Do you want to write changes in file? (y/n)\n";
-    char answer;
-    std::cin >> answer;
-    if (answer == 'y')
-        return true;
+//    std::cout << "Do you want to write changes in file? (y/n)\n";
+//    char answer;
+//    std::cin >> answer;
+//    if (answer == 'y')
+//        return true;
     return false;
 }
 
 bool ConsoleCommandReader::getIsConsoleLogger() {
-    std::cout << "Do you want to write changes in console? (y/n)\n";
-    char answer;
-    std::cin >> answer;
-    if (answer == 'y')
-        return true;
+//    std::cout << "Do you want to write changes in console? (y/n)\n";
+//    char answer;
+//    std::cin >> answer;
+//    if (answer == 'y')
+//        return true;
     return false;
 }
 
 bool ConsoleCommandReader::getIsTraceLevel() {
-    std::cout << "Do you want to log field and player changes? (y/n)\n";
-    char answer;
-    std::cin >> answer;
-    if (answer == 'y')
-        return true;
+//    std::cout << "Do you want to log field and player changes? (y/n)\n";
+//    char answer;
+//    std::cin >> answer;
+//    if (answer == 'y')
+//        return true;
     return false;
 }
 
 bool ConsoleCommandReader::getIsInfoLevel() {
-    std::cout << "Do you want to log game changes? (y/n)\n";
-    char answer;
-    std::cin >> answer;
-    if (answer == 'y')
-        return true;
+//    std::cout << "Do you want to log game changes? (y/n)\n";
+//    char answer;
+//    std::cin >> answer;
+//    if (answer == 'y')
+//        return true;
     return false;
 }
 
 bool ConsoleCommandReader::getIsErrorLevel() {
-    std::cout << "Do you want to log errors? (y/n)\n";
-    char answer;
-    std::cin >> answer;
-    if (answer == 'y')
-        return true;
+//    std::cout << "Do you want to log errors? (y/n)\n";
+//    char answer;
+//    std::cin >> answer;
+//    if (answer == 'y')
+//        return true;
     return false;
 }
 

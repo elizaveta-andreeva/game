@@ -22,7 +22,7 @@ public:
     void load();
     void exit();
     Application();
-    void initWindow();
+    void initWindow(int field_height, int field_width);
     ~Application();
 };
 

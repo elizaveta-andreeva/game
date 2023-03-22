@@ -45,8 +45,16 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "C:/Users/Elizaveta/CLionProjects/OOP_lab1_draft/Objects/Field.cpp" "CMakeFiles/OOP_lab1.dir/Objects/Field.cpp.obj" "gcc" "CMakeFiles/OOP_lab1.dir/Objects/Field.cpp.obj.d"
   "C:/Users/Elizaveta/CLionProjects/OOP_lab1_draft/Objects/Player.cpp" "CMakeFiles/OOP_lab1.dir/Objects/Player.cpp.obj" "gcc" "CMakeFiles/OOP_lab1.dir/Objects/Player.cpp.obj.d"
   "C:/Users/Elizaveta/CLionProjects/OOP_lab1_draft/Readers/ConsoleCommandReader.cpp" "CMakeFiles/OOP_lab1.dir/Readers/ConsoleCommandReader.cpp.obj" "gcc" "CMakeFiles/OOP_lab1.dir/Readers/ConsoleCommandReader.cpp.obj.d"
+  "C:/Users/Elizaveta/CLionProjects/OOP_lab1_draft/View/Apple.cpp" "CMakeFiles/OOP_lab1.dir/View/Apple.cpp.obj" "gcc" "CMakeFiles/OOP_lab1.dir/View/Apple.cpp.obj.d"
+  "C:/Users/Elizaveta/CLionProjects/OOP_lab1_draft/View/Coin.cpp" "CMakeFiles/OOP_lab1.dir/View/Coin.cpp.obj" "gcc" "CMakeFiles/OOP_lab1.dir/View/Coin.cpp.obj.d"
+  "C:/Users/Elizaveta/CLionProjects/OOP_lab1_draft/View/Door.cpp" "CMakeFiles/OOP_lab1.dir/View/Door.cpp.obj" "gcc" "CMakeFiles/OOP_lab1.dir/View/Door.cpp.obj.d"
+  "C:/Users/Elizaveta/CLionProjects/OOP_lab1_draft/View/Hero.cpp" "CMakeFiles/OOP_lab1.dir/View/Hero.cpp.obj" "gcc" "CMakeFiles/OOP_lab1.dir/View/Hero.cpp.obj.d"
+  "C:/Users/Elizaveta/CLionProjects/OOP_lab1_draft/View/MapWidget.cpp" "CMakeFiles/OOP_lab1.dir/View/MapWidget.cpp.obj" "gcc" "CMakeFiles/OOP_lab1.dir/View/MapWidget.cpp.obj.d"
+  "C:/Users/Elizaveta/CLionProjects/OOP_lab1_draft/View/Monster.cpp" "CMakeFiles/OOP_lab1.dir/View/Monster.cpp.obj" "gcc" "CMakeFiles/OOP_lab1.dir/View/Monster.cpp.obj.d"
   "C:/Users/Elizaveta/CLionProjects/OOP_lab1_draft/View/PrintCell.cpp" "CMakeFiles/OOP_lab1.dir/View/PrintCell.cpp.obj" "gcc" "CMakeFiles/OOP_lab1.dir/View/PrintCell.cpp.obj.d"
   "C:/Users/Elizaveta/CLionProjects/OOP_lab1_draft/View/PrintField.cpp" "CMakeFiles/OOP_lab1.dir/View/PrintField.cpp.obj" "gcc" "CMakeFiles/OOP_lab1.dir/View/PrintField.cpp.obj.d"
+  "C:/Users/Elizaveta/CLionProjects/OOP_lab1_draft/View/SpikeTrap.cpp" "CMakeFiles/OOP_lab1.dir/View/SpikeTrap.cpp.obj" "gcc" "CMakeFiles/OOP_lab1.dir/View/SpikeTrap.cpp.obj.d"
+  "C:/Users/Elizaveta/CLionProjects/OOP_lab1_draft/View/Tree.cpp" "CMakeFiles/OOP_lab1.dir/View/Tree.cpp.obj" "gcc" "CMakeFiles/OOP_lab1.dir/View/Tree.cpp.obj.d"
   "C:/Users/Elizaveta/CLionProjects/OOP_lab1_draft/main.cpp" "CMakeFiles/OOP_lab1.dir/main.cpp.obj" "gcc" "CMakeFiles/OOP_lab1.dir/main.cpp.obj.d"
   )
 

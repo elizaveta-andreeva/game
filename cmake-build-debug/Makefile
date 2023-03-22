@@ -1016,6 +1016,150 @@ Readers/ConsoleCommandReader.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP_lab1.dir\build.make CMakeFiles/OOP_lab1.dir/Readers/ConsoleCommandReader.cpp.s
 .PHONY : Readers/ConsoleCommandReader.cpp.s
 
+View/Apple.obj: View/Apple.cpp.obj
+.PHONY : View/Apple.obj
+
+# target to build an object file
+View/Apple.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP_lab1.dir\build.make CMakeFiles/OOP_lab1.dir/View/Apple.cpp.obj
+.PHONY : View/Apple.cpp.obj
+
+View/Apple.i: View/Apple.cpp.i
+.PHONY : View/Apple.i
+
+# target to preprocess a source file
+View/Apple.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP_lab1.dir\build.make CMakeFiles/OOP_lab1.dir/View/Apple.cpp.i
+.PHONY : View/Apple.cpp.i
+
+View/Apple.s: View/Apple.cpp.s
+.PHONY : View/Apple.s
+
+# target to generate assembly for a file
+View/Apple.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP_lab1.dir\build.make CMakeFiles/OOP_lab1.dir/View/Apple.cpp.s
+.PHONY : View/Apple.cpp.s
+
+View/Coin.obj: View/Coin.cpp.obj
+.PHONY : View/Coin.obj
+
+# target to build an object file
+View/Coin.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP_lab1.dir\build.make CMakeFiles/OOP_lab1.dir/View/Coin.cpp.obj
+.PHONY : View/Coin.cpp.obj
+
+View/Coin.i: View/Coin.cpp.i
+.PHONY : View/Coin.i
+
+# target to preprocess a source file
+View/Coin.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP_lab1.dir\build.make CMakeFiles/OOP_lab1.dir/View/Coin.cpp.i
+.PHONY : View/Coin.cpp.i
+
+View/Coin.s: View/Coin.cpp.s
+.PHONY : View/Coin.s
+
+# target to generate assembly for a file
+View/Coin.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP_lab1.dir\build.make CMakeFiles/OOP_lab1.dir/View/Coin.cpp.s
+.PHONY : View/Coin.cpp.s
+
+View/Door.obj: View/Door.cpp.obj
+.PHONY : View/Door.obj
+
+# target to build an object file
+View/Door.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP_lab1.dir\build.make CMakeFiles/OOP_lab1.dir/View/Door.cpp.obj
+.PHONY : View/Door.cpp.obj
+
+View/Door.i: View/Door.cpp.i
+.PHONY : View/Door.i
+
+# target to preprocess a source file
+View/Door.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP_lab1.dir\build.make CMakeFiles/OOP_lab1.dir/View/Door.cpp.i
+.PHONY : View/Door.cpp.i
+
+View/Door.s: View/Door.cpp.s
+.PHONY : View/Door.s
+
+# target to generate assembly for a file
+View/Door.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP_lab1.dir\build.make CMakeFiles/OOP_lab1.dir/View/Door.cpp.s
+.PHONY : View/Door.cpp.s
+
+View/Hero.obj: View/Hero.cpp.obj
+.PHONY : View/Hero.obj
+
+# target to build an object file
+View/Hero.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP_lab1.dir\build.make CMakeFiles/OOP_lab1.dir/View/Hero.cpp.obj
+.PHONY : View/Hero.cpp.obj
+
+View/Hero.i: View/Hero.cpp.i
+.PHONY : View/Hero.i
+
+# target to preprocess a source file
+View/Hero.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP_lab1.dir\build.make CMakeFiles/OOP_lab1.dir/View/Hero.cpp.i
+.PHONY : View/Hero.cpp.i
+
+View/Hero.s: View/Hero.cpp.s
+.PHONY : View/Hero.s
+
+# target to generate assembly for a file
+View/Hero.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP_lab1.dir\build.make CMakeFiles/OOP_lab1.dir/View/Hero.cpp.s
+.PHONY : View/Hero.cpp.s
+
+View/MapWidget.obj: View/MapWidget.cpp.obj
+.PHONY : View/MapWidget.obj
+
+# target to build an object file
+View/MapWidget.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP_lab1.dir\build.make CMakeFiles/OOP_lab1.dir/View/MapWidget.cpp.obj
+.PHONY : View/MapWidget.cpp.obj
+
+View/MapWidget.i: View/MapWidget.cpp.i
+.PHONY : View/MapWidget.i
+
+# target to preprocess a source file
+View/MapWidget.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP_lab1.dir\build.make CMakeFiles/OOP_lab1.dir/View/MapWidget.cpp.i
+.PHONY : View/MapWidget.cpp.i
+
+View/MapWidget.s: View/MapWidget.cpp.s
+.PHONY : View/MapWidget.s
+
+# target to generate assembly for a file
+View/MapWidget.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP_lab1.dir\build.make CMakeFiles/OOP_lab1.dir/View/MapWidget.cpp.s
+.PHONY : View/MapWidget.cpp.s
+
+View/Monster.obj: View/Monster.cpp.obj
+.PHONY : View/Monster.obj
+
+# target to build an object file
+View/Monster.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP_lab1.dir\build.make CMakeFiles/OOP_lab1.dir/View/Monster.cpp.obj
+.PHONY : View/Monster.cpp.obj
+
+View/Monster.i: View/Monster.cpp.i
+.PHONY : View/Monster.i
+
+# target to preprocess a source file
+View/Monster.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP_lab1.dir\build.make CMakeFiles/OOP_lab1.dir/View/Monster.cpp.i
+.PHONY : View/Monster.cpp.i
+
+View/Monster.s: View/Monster.cpp.s
+.PHONY : View/Monster.s
+
+# target to generate assembly for a file
+View/Monster.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP_lab1.dir\build.make CMakeFiles/OOP_lab1.dir/View/Monster.cpp.s
+.PHONY : View/Monster.cpp.s
+
 View/PrintCell.obj: View/PrintCell.cpp.obj
 .PHONY : View/PrintCell.obj
 
@@ -1063,6 +1207,54 @@ View/PrintField.s: View/PrintField.cpp.s
 View/PrintField.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP_lab1.dir\build.make CMakeFiles/OOP_lab1.dir/View/PrintField.cpp.s
 .PHONY : View/PrintField.cpp.s
+
+View/SpikeTrap.obj: View/SpikeTrap.cpp.obj
+.PHONY : View/SpikeTrap.obj
+
+# target to build an object file
+View/SpikeTrap.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP_lab1.dir\build.make CMakeFiles/OOP_lab1.dir/View/SpikeTrap.cpp.obj
+.PHONY : View/SpikeTrap.cpp.obj
+
+View/SpikeTrap.i: View/SpikeTrap.cpp.i
+.PHONY : View/SpikeTrap.i
+
+# target to preprocess a source file
+View/SpikeTrap.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP_lab1.dir\build.make CMakeFiles/OOP_lab1.dir/View/SpikeTrap.cpp.i
+.PHONY : View/SpikeTrap.cpp.i
+
+View/SpikeTrap.s: View/SpikeTrap.cpp.s
+.PHONY : View/SpikeTrap.s
+
+# target to generate assembly for a file
+View/SpikeTrap.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP_lab1.dir\build.make CMakeFiles/OOP_lab1.dir/View/SpikeTrap.cpp.s
+.PHONY : View/SpikeTrap.cpp.s
+
+View/Tree.obj: View/Tree.cpp.obj
+.PHONY : View/Tree.obj
+
+# target to build an object file
+View/Tree.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP_lab1.dir\build.make CMakeFiles/OOP_lab1.dir/View/Tree.cpp.obj
+.PHONY : View/Tree.cpp.obj
+
+View/Tree.i: View/Tree.cpp.i
+.PHONY : View/Tree.i
+
+# target to preprocess a source file
+View/Tree.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP_lab1.dir\build.make CMakeFiles/OOP_lab1.dir/View/Tree.cpp.i
+.PHONY : View/Tree.cpp.i
+
+View/Tree.s: View/Tree.cpp.s
+.PHONY : View/Tree.s
+
+# target to generate assembly for a file
+View/Tree.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP_lab1.dir\build.make CMakeFiles/OOP_lab1.dir/View/Tree.cpp.s
+.PHONY : View/Tree.cpp.s
 
 main.obj: main.cpp.obj
 .PHONY : main.obj
@@ -1208,12 +1400,36 @@ help:
 	@echo ... Readers/ConsoleCommandReader.obj
 	@echo ... Readers/ConsoleCommandReader.i
 	@echo ... Readers/ConsoleCommandReader.s
+	@echo ... View/Apple.obj
+	@echo ... View/Apple.i
+	@echo ... View/Apple.s
+	@echo ... View/Coin.obj
+	@echo ... View/Coin.i
+	@echo ... View/Coin.s
+	@echo ... View/Door.obj
+	@echo ... View/Door.i
+	@echo ... View/Door.s
+	@echo ... View/Hero.obj
+	@echo ... View/Hero.i
+	@echo ... View/Hero.s
+	@echo ... View/MapWidget.obj
+	@echo ... View/MapWidget.i
+	@echo ... View/MapWidget.s
+	@echo ... View/Monster.obj
+	@echo ... View/Monster.i
+	@echo ... View/Monster.s
 	@echo ... View/PrintCell.obj
 	@echo ... View/PrintCell.i
 	@echo ... View/PrintCell.s
 	@echo ... View/PrintField.obj
 	@echo ... View/PrintField.i
 	@echo ... View/PrintField.s
+	@echo ... View/SpikeTrap.obj
+	@echo ... View/SpikeTrap.i
+	@echo ... View/SpikeTrap.s
+	@echo ... View/Tree.obj
+	@echo ... View/Tree.i
+	@echo ... View/Tree.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
